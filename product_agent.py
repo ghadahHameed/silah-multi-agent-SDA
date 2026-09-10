@@ -2,7 +2,6 @@ import os
 
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 
@@ -33,7 +32,7 @@ model = ChatOpenAI(
     api_key=os.getenv("LLM_API_KEY"),
     base_url=os.getenv("LLM_BASE_URL") or None,
     temperature=0
-)
+).with_structured_output(ProductAgentOutput)
 
 
 search_tool = TavilySearch(
@@ -42,62 +41,59 @@ search_tool = TavilySearch(
 )
 
 
-SYSTEM_PROMPT = """
-You are the Product Understanding Agent in SILAH.
-
-Your task is to:
-
-1. Understand the product.
-2. Research the product and its market context using Tavily.
-3. Generate an Ideal Customer Profile.
-
-The final output must include:
-- product_summary
-- target_industries
-- preferred_company_size
-
-Do not:
-- search for specific companies
-- calculate Fit Scores
-- rank companies
-- find contacts
-- generate outreach messages
-
-Agent 2 handles company research, scoring, and ranking.
-Agent 3 handles contacts and outreach.
-"""
-
-
-product_agent = create_agent(
-    model=model,
-    tools=[search_tool],
-    system_prompt=SYSTEM_PROMPT,
-    response_format=ProductAgentOutput
-)
-
-
 def analyze_product(product_name: str, product_description: str):
 
-    message = f"""
-Product Name: {product_name}
+    search_query = f"""
+    Research this B2B product and its market context.
 
-Product Description: {product_description}
+    Product Name: {product_name}
+    Product Description: {product_description}
 
-Research the product first, then generate the ICP.
-"""
+    Focus on:
+    - what the product does
+    - business use cases
+    - industries that could benefit from it
+    - suitable company sizes
+    """
 
-    result = product_agent.invoke(
-        {
-            "messages": [
-                {
-                    "role": "user",
-                    "content": message
-                }
-            ]
-        }
+    research_results = search_tool.invoke(
+        {"query": search_query}
     )
 
-    return result["structured_response"]
+    prompt = f"""
+    You are the Product Understanding Agent in SILAH.
+
+    Analyze the product using the provided product information
+    and the web research results.
+
+    Product Name:
+    {product_name}
+
+    Product Description:
+    {product_description}
+
+    Research Results:
+    {research_results}
+
+    Generate:
+
+    1. A short product summary.
+    2. An Ideal Customer Profile containing:
+       - target industries
+       - preferred company sizes
+
+    Do not:
+    - search for specific companies
+    - calculate Fit Scores
+    - rank companies
+    - find contacts
+    - generate outreach messages
+
+    Agent 2 handles company research, scoring, and ranking.
+    Agent 3 handles contacts and outreach.
+    """
+
+    return model.invoke(prompt)
 
 
 if __name__ == "__main__":
