@@ -5,11 +5,17 @@ This agent receives a product name and description, researches the product and i
 ## Input
 - Product name
 - Product description
+- Employee name
+- Employee email
+- Company name
 
 ## Output
 - Product summary
 - Target industries
 - Preferred company size
+- Employee name
+- Employee email
+- Company name
 
 ## Scope
 Agent 1 does not search for companies, calculate fit scores, rank companies, or generate outreach messages.
