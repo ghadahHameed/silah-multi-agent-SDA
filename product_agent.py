@@ -9,17 +9,40 @@ from langchain_tavily import TavilySearch
 load_dotenv()
 
 
+class SenderInfo(BaseModel):
+    name: str = Field(
+        description="Name of the person representing the product company."
+    )
+
+    company_name: str = Field(
+        description="Name of the company offering the product."
+    )
+
+    email: str = Field(
+        description="Sender email address."
+    )
+
+    phone: str = Field(
+        description="Sender phone number."
+    )
+
+
 class IdealCustomerProfile(BaseModel):
     target_industries: list[str] = Field(
         description="Industries most suitable for the product."
     )
 
     preferred_company_size: list[str] = Field(
-        description="Preferred company sizes."
+        description=(
+            "Suitable company sizes. Use only: "
+            "Small (1-50 employees), "
+            "Medium (51-250 employees), "
+            "Large (251+ employees)."
+        )
     )
 
 
-class ProductAgentOutput(BaseModel):
+class ProductAnalysis(BaseModel):
     product_summary: str = Field(
         description="Short summary of what the product does."
     )
@@ -27,12 +50,18 @@ class ProductAgentOutput(BaseModel):
     ideal_customer_profile: IdealCustomerProfile
 
 
+class ProductAgentOutput(BaseModel):
+    product_summary: str
+    ideal_customer_profile: IdealCustomerProfile
+    sender_info: SenderInfo
+
+
 model = ChatOpenAI(
     model=os.getenv("LLM_MODEL"),
     api_key=os.getenv("LLM_API_KEY"),
     base_url=os.getenv("LLM_BASE_URL") or None,
     temperature=0
-).with_structured_output(ProductAgentOutput)
+).with_structured_output(ProductAnalysis)
 
 
 search_tool = TavilySearch(
@@ -41,13 +70,22 @@ search_tool = TavilySearch(
 )
 
 
-def analyze_product(product_name: str, product_description: str):
+def analyze_product(
+    product_name: str,
+    product_description: str,
+    sender_name: str,
+    sender_company_name: str,
+    sender_email: str,
+    sender_phone: str
+):
 
     search_query = f"""
     Research this B2B product and its market context.
 
     Product Name: {product_name}
-    Product Description: {product_description}
+
+    Product Description:
+    {product_description}
 
     Focus on:
     - what the product does
@@ -72,15 +110,23 @@ def analyze_product(product_name: str, product_description: str):
     Product Description:
     {product_description}
 
-    Research Results:
+    Web Research Results:
     {research_results}
 
     Generate:
 
     1. A short product summary.
+
     2. An Ideal Customer Profile containing:
        - target industries
        - preferred company sizes
+
+    For company size, use ONLY:
+    - Small (1-50 employees)
+    - Medium (51-250 employees)
+    - Large (251+ employees)
+
+    Select only the sizes suitable for the product.
 
     Do not:
     - search for specific companies
@@ -93,7 +139,20 @@ def analyze_product(product_name: str, product_description: str):
     Agent 3 handles contacts and outreach.
     """
 
-    return model.invoke(prompt)
+    analysis = model.invoke(prompt)
+
+    sender_info = SenderInfo(
+        name=sender_name,
+        company_name=sender_company_name,
+        email=sender_email,
+        phone=sender_phone
+    )
+
+    return ProductAgentOutput(
+        product_summary=analysis.product_summary,
+        ideal_customer_profile=analysis.ideal_customer_profile,
+        sender_info=sender_info
+    )
 
 
 if __name__ == "__main__":
@@ -104,9 +163,33 @@ if __name__ == "__main__":
         "Enter product description: "
     )
 
-    result = analyze_product(
-        product_name,
-        product_description
+    sender_name = input(
+        "Enter sender name: "
     )
 
-    print(result.model_dump_json(indent=2))
+    sender_company_name = input(
+        "Enter sender company name: "
+    )
+
+    sender_email = input(
+        "Enter sender email: "
+    )
+
+    sender_phone = input(
+        "Enter sender phone: "
+    )
+
+    result = analyze_product(
+        product_name=product_name,
+        product_description=product_description,
+        sender_name=sender_name,
+        sender_company_name=sender_company_name,
+        sender_email=sender_email,
+        sender_phone=sender_phone
+    )
+
+    print(
+        result.model_dump_json(
+            indent=2
+        )
+    )
