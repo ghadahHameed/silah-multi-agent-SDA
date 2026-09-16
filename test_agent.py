@@ -4,14 +4,13 @@ from product_agent import analyze_product
 def run_test(
     test_number,
     product_name,
-    product_description
+    product_description,
+    preferred_city=None,
+    requested_company_count=None
 ):
 
     print(f"\n========== TEST {test_number} ==========")
-
-    print(
-        f"Product: {product_name}"
-    )
+    print(f"Product: {product_name}")
 
     try:
 
@@ -21,7 +20,9 @@ def run_test(
             sender_name="Aseel Alsaad",
             sender_company_name="Silah Demo Company",
             sender_email="aseel@example.com",
-            sender_phone="+966500000000"
+            sender_phone="+966500000000",
+            preferred_city=preferred_city,
+            requested_company_count=requested_company_count
         )
 
         assert result.product_summary.strip(), \
@@ -39,22 +40,20 @@ def run_test(
         assert result.sender_info.company_name, \
             "sender company name is missing"
 
+        assert result.search_preferences.requested_company_count >= 1, \
+            "requested company count is invalid"
+
         print(
             result.model_dump_json(
                 indent=2
             )
         )
 
-        print(
-            f"TEST {test_number}: PASS"
-        )
+        print(f"TEST {test_number}: PASS")
 
     except Exception as error:
 
-        print(
-            f"TEST {test_number}: FAIL"
-        )
-
+        print(f"TEST {test_number}: FAIL")
         print(error)
 
 
@@ -65,7 +64,9 @@ run_test(
     A B2B platform that helps organizations
     train employees on cybersecurity awareness,
     phishing risks, and security best practices.
-    """
+    """,
+    preferred_city="Riyadh",
+    requested_company_count=5
 )
 
 
@@ -76,7 +77,9 @@ run_test(
     A cloud-based B2B system that helps
     retailers and distributors track inventory,
     stock levels, suppliers, and warehouse operations.
-    """
+    """,
+    preferred_city="Jeddah",
+    requested_company_count=10
 )
 
 
