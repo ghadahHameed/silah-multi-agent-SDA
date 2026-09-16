@@ -1,41 +1,53 @@
 # SILAH - Product Understanding Agent
 
-Agent 1 is responsible for understanding the product and generating an Ideal Customer Profile (ICP).
+This repository contains Agent 1 of the SILAH multi-agent outbound system.
+
+## Overview
+
+Agent 1 is responsible for understanding the product provided by the user and generating a structured Ideal Customer Profile (ICP).
+
+It uses Tavily to research the product and its market context, then uses an LLM to analyze the product and generate the final structured output.
+
+The output is passed to Agent 2, which handles company research, filtering, fit analysis, and ranking.
+
+---
+
+## Agent 1 Responsibilities
+
+Agent 1:
+
+- Receives the product name and description.
+- Receives sender information.
+- Receives optional company search preferences.
+- Researches the product and market context using Tavily.
+- Generates a short product summary.
+- Identifies suitable target industries.
+- Identifies suitable company sizes.
+- Returns the results in a structured format.
+- Passes sender information and search preferences to Agent 2.
+
+Agent 1 does NOT:
+
+- Search for specific companies.
+- Calculate Fit Scores.
+- Rank companies.
+- Find contacts.
+- Generate outreach messages.
+
+---
 
 ## Input
 
-The agent receives:
-
-- Product name
-- Product description
-- Sender name
-- Sender company name
-- Sender email
-- Sender phone number
-
-## Process
-
-1. The product information is researched using Tavily.
-2. The LLM analyzes the product and market context.
-3. The agent generates:
-   - Product summary
-   - Target industries
-   - Preferred company sizes
-4. Sender information is passed through without being analyzed by the LLM.
-
-## Output
+Agent 1 receives:
 
 ```json
 {
-  "product_summary": "...",
-  "ideal_customer_profile": {
-    "target_industries": [],
-    "preferred_company_size": []
-  },
-  "sender_info": {
-    "name": "...",
-    "company_name": "...",
-    "email": "...",
-    "phone": "..."
-  }
+  "product_name": "Cybersecurity Awareness Platform",
+  "product_description": "A B2B platform that helps organizations train employees on cybersecurity awareness.",
+  "sender_name": "Aseel Alsaad",
+  "sender_company_name": "Example Company",
+  "sender_email": "aseel@example.com",
+  "sender_phone": "+966500000000",
+  "preferred_city": "Riyadh",
+  "requested_company_count": 5
 }
