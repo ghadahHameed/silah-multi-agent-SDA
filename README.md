@@ -1,53 +1,62 @@
-# SILAH - Product Understanding Agent
+# SILAH - Agent 1: Prospect Discovery
 
-This repository contains Agent 1 of the SILAH multi-agent outbound system.
-
-## Overview
-
-Agent 1 is responsible for understanding the product provided by the user and generating a structured Ideal Customer Profile (ICP).
-
-It uses Tavily to research the product and its market context, then uses an LLM to analyze the product and generate the final structured output.
-
-The output is passed to Agent 2, which handles company research, filtering, fit analysis, and ranking.
-
----
-
-## Agent 1 Responsibilities
-
-Agent 1:
-
-- Receives the product name and description.
-- Receives sender information.
-- Receives optional company search preferences.
-- Researches the product and market context using Tavily.
-- Generates a short product summary.
-- Identifies suitable target industries.
-- Identifies suitable company sizes.
-- Returns the results in a structured format.
-- Passes sender information and search preferences to Agent 2.
-
-Agent 1 does NOT:
-
-- Search for specific companies.
-- Calculate Fit Scores.
-- Rank companies.
-- Find contacts.
-- Generate outreach messages.
-
----
+Agent 1 converts the user's product information into a structured prospect profile that can be used by Agent 2 to search and rank companies from the existing company dataset.
 
 ## Input
 
 Agent 1 receives:
 
+- Product name
+- Product description
+- Sender name
+- Sender company name
+- Sender email
+- Sender phone
+- Preferred city (optional)
+- Number of companies to return (optional, default = 5)
+
+## How It Works
+
+Agent 1 uses one LLM call per run.
+
+The LLM performs two main tasks:
+
+1. **ICP Industry Classification**
+   - Identifies industries suitable for the product.
+   - Industries must come from the fixed taxonomy used by the company dataset.
+   - The model cannot invent new industry labels.
+
+2. **Buyer Profile Generation**
+   - Generates a description of the type of company most likely to benefit from the product.
+   - This profile is passed to Agent 2 for better comparison with company descriptions.
+
+Agent 1 does not search for companies because the company dataset already exists.
+
+## Clarification
+
+If the product description is too vague to determine suitable industries, Agent 1 does not guess.
+
+Instead, it returns one clarification question to the user.
+
+## Output
+
 ```json
 {
-  "product_name": "Cybersecurity Awareness Platform",
-  "product_description": "A B2B platform that helps organizations train employees on cybersecurity awareness.",
-  "sender_name": "Aseel Alsaad",
-  "sender_company_name": "Example Company",
-  "sender_email": "aseel@example.com",
-  "sender_phone": "+966500000000",
-  "preferred_city": "Riyadh",
-  "requested_company_count": 5
+  "status": "ready",
+  "icp_industries": [
+    "Banking",
+    "Government"
+  ],
+  "buyer_profile": "Organizations with a large workforce and strong cybersecurity awareness and compliance needs.",
+  "sender_info": {
+    "name": "Aseel Alsaad",
+    "company_name": "Example Company",
+    "email": "aseel@example.com",
+    "phone": "+966500000000"
+  },
+  "search_preferences": {
+    "preferred_city": "Riyadh",
+    "requested_company_count": 5
+  },
+  "clarification_question": null
 }
