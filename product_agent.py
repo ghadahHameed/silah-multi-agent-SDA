@@ -27,6 +27,19 @@ class SenderInfo(BaseModel):
     )
 
 
+class SearchPreferences(BaseModel):
+    preferred_city: str | None = Field(
+        default=None,
+        description="Optional preferred city for company search."
+    )
+
+    requested_company_count: int = Field(
+        default=5,
+        ge=1,
+        description="Number of companies requested by the user."
+    )
+
+
 class IdealCustomerProfile(BaseModel):
     target_industries: list[str] = Field(
         description="Industries most suitable for the product."
@@ -54,6 +67,7 @@ class ProductAgentOutput(BaseModel):
     product_summary: str
     ideal_customer_profile: IdealCustomerProfile
     sender_info: SenderInfo
+    search_preferences: SearchPreferences
 
 
 model = ChatOpenAI(
@@ -76,7 +90,9 @@ def analyze_product(
     sender_name: str,
     sender_company_name: str,
     sender_email: str,
-    sender_phone: str
+    sender_phone: str,
+    preferred_city: str | None = None,
+    requested_company_count: int | None = None
 ):
 
     search_query = f"""
@@ -148,10 +164,20 @@ def analyze_product(
         phone=sender_phone
     )
 
+    search_preferences = SearchPreferences(
+        preferred_city=preferred_city,
+        requested_company_count=(
+            requested_company_count
+            if requested_company_count is not None
+            else 5
+        )
+    )
+
     return ProductAgentOutput(
         product_summary=analysis.product_summary,
         ideal_customer_profile=analysis.ideal_customer_profile,
-        sender_info=sender_info
+        sender_info=sender_info,
+        search_preferences=search_preferences
     )
 
 
@@ -179,13 +205,35 @@ if __name__ == "__main__":
         "Enter sender phone: "
     )
 
+    preferred_city_input = input(
+        "Enter preferred city (optional): "
+    ).strip()
+
+    requested_company_count_input = input(
+        "Enter number of companies (optional, default = 5): "
+    ).strip()
+
+    preferred_city = (
+        preferred_city_input
+        if preferred_city_input
+        else None
+    )
+
+    requested_company_count = (
+        int(requested_company_count_input)
+        if requested_company_count_input
+        else None
+    )
+
     result = analyze_product(
         product_name=product_name,
         product_description=product_description,
         sender_name=sender_name,
         sender_company_name=sender_company_name,
         sender_email=sender_email,
-        sender_phone=sender_phone
+        sender_phone=sender_phone,
+        preferred_city=preferred_city,
+        requested_company_count=requested_company_count
     )
 
     print(
