@@ -1,8 +1,10 @@
 # SILAH - Agent 1: Prospect Discovery
 
-Agent 1 converts the user's product information into a structured prospect profile that can be used by Agent 2 to search and rank companies from the existing company dataset.
+Agent 1 is the first stage of the SILAH multi-agent outbound workflow.
 
-## Input
+Its role is to understand the user's product and convert it into structured prospect criteria that can be used by Agent 2 to search the existing company dataset.
+
+## What Agent 1 Does
 
 Agent 1 receives:
 
@@ -13,50 +15,23 @@ Agent 1 receives:
 - Sender email
 - Sender phone
 - Preferred city (optional)
-- Number of companies to return (optional, default = 5)
+- Number of companies to return (optional)
 
-## How It Works
+It then uses one LLM call to generate:
 
-Agent 1 uses one LLM call per run.
+- `icp_industries`
+- `buyer_profile`
 
-The LLM performs two main tasks:
+The selected industries are restricted to the same industry taxonomy used in the company dataset.
 
-1. **ICP Industry Classification**
-   - Identifies industries suitable for the product.
-   - Industries must come from the fixed taxonomy used by the company dataset.
-   - The model cannot invent new industry labels.
+This prevents the model from generating labels that do not exist in the dataset.
 
-2. **Buyer Profile Generation**
-   - Generates a description of the type of company most likely to benefit from the product.
-   - This profile is passed to Agent 2 for better comparison with company descriptions.
+## Why Buyer Profile?
 
-Agent 1 does not search for companies because the company dataset already exists.
+The product description and the company description represent different types of text.
 
-## Clarification
+For example:
 
-If the product description is too vague to determine suitable industries, Agent 1 does not guess.
-
-Instead, it returns one clarification question to the user.
-
-## Output
-
-```json
-{
-  "status": "ready",
-  "icp_industries": [
-    "Banking",
-    "Government"
-  ],
-  "buyer_profile": "Organizations with a large workforce and strong cybersecurity awareness and compliance needs.",
-  "sender_info": {
-    "name": "Aseel Alsaad",
-    "company_name": "Example Company",
-    "email": "aseel@example.com",
-    "phone": "+966500000000"
-  },
-  "search_preferences": {
-    "preferred_city": "Riyadh",
-    "requested_company_count": 5
-  },
-  "clarification_question": null
-}
+```text
+Product:
+Cybersecurity awareness platform for employee training
