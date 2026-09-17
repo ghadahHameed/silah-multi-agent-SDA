@@ -1,0 +1,501 @@
+company_id;company_name;industry;location;business_description;website;email;revenue_sar
+SA-001;Saudi Telecom Company (stc);Telecommunications;Riyadh;Telecommunications and digital services provider serving consumers and enterprises.;www.sauditelec.com.sa;info@sauditelec.com.sa;27366000000
+SA-002;Elm Company;Information Technology;Riyadh;Digital solutions company providing government and enterprise technology services.;www.elmcompany.com.sa;;5896000000
+SA-003;solutions by stc;Information Technology;Riyadh;ICT services provider focused on digital infrastructure, cloud, cybersecurity and managed services.;;;5445500000
+SA-004;Mobily;Telecommunications;Riyadh;Telecommunications operator providing mobile, broadband and business connectivity services.;;contact@mobily.com.sa;27619000000
+SA-005;Al Rajhi Bank;Banking;Riyadh;Large Saudi bank providing retail, corporate and digital banking services.;www.alrajhiban.com.sa;;35548000000
+SA-006;Bank Albilad;Banking;Riyadh;Saudi Islamic bank serving retail, corporate and investment customers.;www.bankalbila.com.sa;;37563000000
+SA-007;Riyad Bank;Banking;Riyadh;Saudi bank providing corporate, retail and investment banking services.;;;28414000000
+SA-008;Saudi National Bank (SNB);Banking;Riyadh;Saudi financial institution serving retail, corporate and institutional customers.;www.saudinatio.com.sa;;35648000000
+SA-009;Almarai;Food & Beverage;Riyadh;Large food and beverage company operating dairy, bakery, poultry and juice businesses.;;;3095000000
+SA-010;Savola Group;Food & Retail;Jeddah;Investment group with businesses across food, retail and related sectors.;www.savolagrou.com.sa;;3465000000
+SA-011;Nahdi Medical Company;Healthcare;Jeddah;Healthcare and pharmacy retailer operating a large network across Saudi Arabia.;www.nahdimedic.com.sa;;130900000
+SA-012;Jarir Marketing;Retail;Riyadh;Retailer specializing in electronics, office supplies, books and consumer products.;www.jarirmarke.com.sa;sales@jarirmarke.com.sa;3702000000
+SA-013;Extra Stores;Retail;Riyadh;Consumer electronics retailer operating stores and an online shopping platform.;www.extrastore.com.sa;partners@extrastore.com.sa;77200000
+SA-014;ACWA Power;Energy;Riyadh;Developer and operator of power generation and water desalination projects.;;;39438000000
+SA-015;Saudi Electricity Company;Utilities;Riyadh;Major electricity generation, transmission and distribution company in Saudi Arabia.;;;32343000000
+SA-016;Saudi Aramco;Energy;Jeddah;Integrated energy company operating across oil, gas, refining and chemicals.;;contact@saudiaramc.com.sa;23163000000
+SA-017;Maaden;Mining;Riyadh;Saudi mining company developing mineral resources and mining projects.;www.maaden.com.sa;;18558900000
+SA-018;SABIC;Chemicals;Riyadh;Global chemicals company producing petrochemicals, polymers and specialty products.;;;19517000000
+SA-019;Bahri;Logistics;Riyadh;Saudi maritime transport and logistics company operating shipping and logistics services.;www.bahri.com.sa;contact@bahri.com.sa;3934000000
+SA-020;Red Sea International;Construction;Riyadh;Company providing modular buildings and construction solutions for industrial and commercial projects.;;;781300000
+SA-021;Bupa Arabia;Insurance;Jeddah;Health insurance provider serving individuals, companies and organizations in Saudi Arabia.;;hello@bupaarabia.com.sa;23000000
+SA-022;Tawuniya;Insurance;Riyadh;Saudi insurance company providing health, motor and general insurance products.;;;10800000
+SA-023;Saudi Re;Insurance;Riyadh;Saudi reinsurance company serving regional and international insurance markets.;;;164400000
+SA-024;Mouwasat Medical Services;Healthcare;Dammam;Healthcare provider operating hospitals and medical facilities in Saudi Arabia.;www.mouwasatme.com.sa;;109300000
+SA-025;Dallah Healthcare;Healthcare;Riyadh;Healthcare group operating hospitals and medical services businesses.;;hello@dallahheal.com.sa;216500000
+SA-026;Dr. Sulaiman Al Habib Medical Services Group;Healthcare;Riyadh;Healthcare group operating hospitals, clinics and pharmacies.;;;283800000
+SA-027;Fakeeh Care Group;Healthcare;Jeddah;Healthcare provider operating hospitals, clinics and specialized medical services.;www.fakeehcare.com.sa;sales@fakeehcare.com.sa;93600000
+SA-028;Cenomi Retail;Retail;Riyadh;Retail company operating a portfolio of international consumer brands in Saudi Arabia.;;;460900000
+SA-029;Cenomi Centers;Real Estate;Riyadh;Shopping mall operator developing and managing retail destinations in Saudi Arabia.;;;727300000
+SA-030;Dar Al Arkan;Real Estate;Riyadh;Real estate developer involved in residential and mixed-use developments.;;hello@daralarkan.com.sa;10758000000
+SA-031;Roshn Group;Real Estate;Riyadh;Saudi real estate developer focused on large-scale residential communities.;;partners@roshngroup.com.sa;1078300000
+SA-032;Kingdom Holding Company;Investment;Riyadh;Investment company with interests across hospitality, real estate, technology and financial assets.;www.kingdomhol.com.sa;hello@kingdomhol.com.sa;1587800000
+SA-033;Al Othaim Markets;Retail;Riyadh;Saudi grocery retailer operating supermarkets and hypermarkets.;;hello@alothaimma.com.sa;547100000
+SA-034;Panda Retail Company;Retail;Jeddah;Saudi supermarket and hypermarket operator serving consumers across the Kingdom.;www.pandaretai.com.sa;hello@pandaretai.com.sa;1192100000
+SA-035;BinDawood Holding;Retail;Jeddah;Retail group operating supermarkets and hypermarkets in Saudi Arabia.;www.bindawoodh.com.sa;;446500000
+SA-036;Lazurde Company;Consumer Goods;Riyadh;Jewelry manufacturer and retailer with operations in Saudi Arabia and regional markets.;www.lazurdecom.com.sa;;234000000
+SA-037;Alhokair Fashion Retail;Retail;Riyadh;Fashion retailer operating multiple international brands in the region.;www.alhokairfa.com.sa;;5933100000
+SA-038;United Electronics (eXtra);Retail;Riyadh;Consumer electronics and home appliance retailer with stores and online channels.;;contact@unitedelec.com.sa;5877500000
+SA-039;Flynas;Airlines;Riyadh;Saudi low-cost airline operating domestic and international passenger services.;;hello@flynas.com.sa;7524600000
+SA-040;Saudia;Airlines;Jeddah;Saudi national airline providing domestic and international passenger services.;;;4248300000
+SA-041;Riyadh Air;Airlines;Riyadh;New Saudi airline being developed as part of the Kingdom's aviation expansion strategy.;www.riyadhair.com.sa;;780200000
+SA-042;Saudi Ground Services;Aviation Services;Jeddah;Provider of ground handling services for airlines and airports in Saudi Arabia.;www.saudigroun.com.sa;;172800000
+SA-043;SAL Saudi Logistics Services;Logistics;Riyadh;Logistics provider specializing in air cargo, ground handling and supply chain services.;www.salsaudilo.com.sa;;161500000
+SA-044;SPL (Saudi Post Logistics);Logistics;Riyadh;Saudi logistics organization providing postal, logistics and fulfillment services.;www.spl(saudip.com.sa;;56100000
+SA-045;Aramex;Logistics;Riyadh;Logistics and express delivery company providing transportation and supply chain services.;www.aramex.com.sa;;1617700000
+SA-046;Naqel Express;Logistics;Riyadh;Saudi logistics company providing express delivery and e-commerce fulfillment services.;www.naqelexpre.com.sa;hello@naqelexpre.com.sa;276500000
+SA-047;RedBox;Logistics;Riyadh;Saudi smart parcel delivery company providing automated pickup and delivery solutions.;www.redbox.com.sa;info@redbox.com.sa;2383800000
+SA-048;STC Pay;Fintech;Riyadh;Saudi digital financial services platform providing payments and financial solutions.;www.stcpay.com.sa;;45300000
+SA-049;Tamara;Fintech;Riyadh;Saudi fintech company providing buy-now-pay-later and payment solutions.;;hello@tamara.com.sa;1180700000
+SA-050;Tabby;Fintech;Riyadh;Fintech company providing flexible payment and financial services across the region.;www.tabby.com.sa;;627900000
+SA-051;Lean Technologies;Fintech;Riyadh;Financial technology company providing open banking and financial infrastructure solutions.;;;5000000
+SA-052;Foodics;Software;Riyadh;Restaurant technology company providing cloud-based point-of-sale and business management solutions.;www.foodics.com.sa;partners@foodics.com.sa;30400000
+SA-053;Salla;E-commerce Technology;Jeddah;Saudi e-commerce platform enabling merchants to create and operate online stores.;www.salla.com.sa;;1243300000
+SA-054;Unifonic;Cloud Communications;Riyadh;Cloud communications company providing customer engagement and communication APIs.;;;105400000
+SA-055;Mozn;Artificial Intelligence;Riyadh;Saudi AI company developing solutions for financial crime prevention and enterprise intelligence.;;;901200000
+SA-056;Lucidya;Artificial Intelligence;Riyadh;Customer experience and social intelligence technology company serving enterprises.;;;41100000
+SA-057;CNTXT;Data & AI;Riyadh;Data and AI solutions company supporting digital transformation and analytics initiatives.;www.cntxt.com.sa;;7400000
+SA-058;Quant;Artificial Intelligence;Riyadh;Saudi technology company providing AI and data-driven solutions to organizations.;;;140400000
+SA-059;SITE;Cybersecurity;Riyadh;Saudi digital transformation and cybersecurity company serving government and enterprises.;;;494400000
+SA-060;Cyberani;Cybersecurity;Riyadh;Saudi cybersecurity company providing security services and solutions.;www.cyberani.com.sa;sales@cyberani.com.sa;38600000
+SA-061;Sirar by stc;Cybersecurity;Riyadh;Cybersecurity company providing managed security and digital protection services.;;;15500000
+SA-062;MDS SI;Information Technology;Riyadh;IT solutions provider serving enterprises with infrastructure, cloud and digital services.;;;270400000
+SA-063;Ejada Systems;Information Technology;Riyadh;IT services company delivering digital transformation and technology solutions.;;partners@ejadasyste.com.sa;6666700000
+SA-064;MIS;Information Technology;Riyadh;Saudi IT company providing systems integration, digital services and technology solutions.;;partners@mis.com.sa;2343100000
+SA-065;Thakher Development;Real Estate;Jeddah;Real estate developer involved in large-scale development projects in Jeddah.;;;144500000
+SA-066;Jabal Omar Development;Real Estate;Riyadh;Real estate developer focused on hospitality and mixed-use developments near Riyadh.;www.jabalomard.com.sa;sales@jabalomard.com.sa;274900000
+SA-067;Saudi Tourism Company;Tourism;Riyadh;Tourism-focused company developing and operating tourism experiences and destinations.;www.sauditouri.com.sa;;17100000
+SA-068;Almosafer;Travel Technology;Riyadh;Saudi travel services company providing consumer and corporate travel solutions.;;hello@almosafer.com.sa;6900000
+SA-069;Seera Group;Travel;Riyadh;Travel and tourism company providing travel management and related services.;;contact@seeragroup.com.sa;542500000
+SA-070;Careem Saudi;Technology;Riyadh;Technology platform providing mobility, delivery and digital services across the region.;www.careemsaud.com.sa;partners@careemsaud.com.sa;74500000
+SA-071;HungerStation;Food Delivery;Riyadh;Food delivery platform connecting consumers with restaurants and delivery partners.;www.hungerstat.com.sa;;164800000
+SA-072;Jahez;Food Delivery;Riyadh;Saudi food delivery platform connecting restaurants, customers and delivery services.;;;94100000
+SA-073;Mrsool;Delivery Technology;Riyadh;Saudi on-demand delivery platform connecting customers with delivery providers.;;;13700000
+SA-074;The Chefz;Food Technology;Riyadh;Saudi online platform for food ordering, restaurants and premium dining experiences.;www.thechefz.com.sa;info@thechefz.com.sa;241600000
+SA-075;PIF;Investment;Riyadh;Saudi sovereign wealth fund investing in strategic sectors and large-scale projects.;;partners@pif.com.sa;117300000
+SA-076;NEOM;Economic Development;Riyadh;Large-scale regional development project focused on technology, tourism and new industries.;www.neom.com.sa;partners@neom.com.sa;1679000000
+SA-077;Diriyah Company;Real Estate & Tourism;Riyadh;Development company creating a major cultural, tourism and residential destination in Diriyah.;;info@diriyahcom.com.sa;106100000
+SA-078;Qiddiya Investment Company;Entertainment & Tourism;Riyadh;Developer of Qiddiya, a large entertainment, sports and cultural destination.;www.qiddiyainv.com.sa;;92900000
+SA-079;Red Sea Global;Tourism & Hospitality;Riyadh;Developer of large-scale tourism destinations in Saudi Arabia.;www.redseaglob.com.sa;;30900000
+SA-080;ROSHN Group;Real Estate;Riyadh;Large Saudi residential developer focused on integrated communities and housing projects.;www.roshngroup.com.sa;;309200000
+SA-081;SISCO Holding;Logistics & Infrastructure;Jeddah;Saudi investment and infrastructure group with interests in logistics and related services.;www.siscoholdi.com.sa;;5248200000
+SA-082;NUPCO;Healthcare Supply Chain;Riyadh;Saudi healthcare procurement and supply chain organization serving the public health sector.;www.nupco.com.sa;partners@nupco.com.sa;1341400000
+SA-083;Arabian Centres;Real Estate;Riyadh;Shopping center developer and operator with retail destinations across Saudi Arabia.;;;367200000
+SA-084;SALIC;Agriculture Investment;Riyadh;Saudi investment company focused on food and agriculture assets globally.;www.salic.com.sa;sales@salic.com.sa;1684900000
+SA-085;Savvy Games Group;Gaming;Riyadh;Saudi gaming company investing in game development, esports and gaming businesses.;;;14600000
+SA-086;stc group subsidiaries;Telecommunications;Riyadh;Group of technology and telecommunications businesses supporting digital services and infrastructure.;;partners@stcgroupsu.com.sa;2458200000
+SA-087;Zain KSA;Telecommunications;Riyadh;Saudi telecommunications operator providing mobile, broadband and digital services.;www.zainksa.com.sa;;36160000000
+SA-088;Virgin Mobile KSA;Telecommunications;Riyadh;Digital-focused mobile operator serving consumers in Saudi Arabia.;;sales@virginmobi.com.sa;7686500000
+SA-089;Alinma Bank;Banking;Riyadh;Saudi Islamic bank providing retail, corporate and investment banking services.;;hello@alinmabank.com.sa;26801000000
+SA-090;Saudi Awwal Bank (SAB);Banking;Riyadh;Saudi bank providing corporate, retail and investment banking services.;www.saudiawwal.com.sa;;49631000000
+SA-091;Arab National Bank;Banking;Riyadh;Saudi bank serving corporate, retail and investment customers.;;contact@arabnation.com.sa;28982000000
+SA-092;GIB Saudi Arabia;Banking;Riyadh;Bank providing corporate and investment banking services in Saudi Arabia.;;;1642600000
+SA-093;Alinma Investment;Financial Services;Riyadh;Saudi investment firm providing asset management and investment services.;;contact@alinmainve.com.sa;3125700000
+SA-094;Derayah Financial;Financial Services;Riyadh;Saudi financial services company providing investment and brokerage solutions.;www.derayahfin.com.sa;contact@derayahfin.com.sa;322900000
+SA-095;SNB Capital;Financial Services;Riyadh;Investment banking and asset management business serving institutional and individual investors.;;;273200000
+SA-096;Alawwal Capital;Financial Services;Riyadh;Financial services company providing investment and capital market services.;www.alawwalcap.com.sa;;87300000
+SA-097;Asteran;Technology;Riyadh;Technology-focused business providing digital and enterprise solutions.;;;47600000
+SA-098;Tamer Group;Healthcare & Consumer;Jeddah;Saudi healthcare and consumer products group with distribution and related businesses.;www.tamergroup.com.sa;;543500000
+SA-099;Jamjoom Pharma;Pharmaceuticals;Jeddah;Saudi pharmaceutical manufacturer and distributor serving regional healthcare markets.;;;98500000
+SA-100;SPIMACO;Pharmaceuticals;Jeddah;Saudi pharmaceutical company manufacturing and marketing medicines in regional markets.;;sales@spimaco.com.sa;568600000
+SA-MOCK-101;Al Technologies 72;Information Technology;Riyadh;Building integrated solutions for the information technology sector nationwide.;www.altechnolo.com.sa;info@altechnolo.com.sa;329800000
+SA-MOCK-102;Smart Vision Company 29;Manufacturing;Jeddah;Offers enterprise-grade manufacturing frameworks nationwide backed by years of deep industry expertise.;www.smartvisio.com.sa;;968800000
+SA-MOCK-103;Saudi Technologies 94;Hospitality;Jeddah;Specializes in providing tailored hospitality solutions for local SMEs backed by years of deep industry expertise.;www.sauditechn.com.sa;;1610600000
+SA-MOCK-104;Saudi Pioneer Technologies 20;Telecommunications;Dammam;Driven by modern innovation, this enterprise focuses on telecommunications technologies across the Saudi market.;www.saudipione.com.sa;;3711200000
+SA-MOCK-105;Smart Tech Holdings 69;Telecommunications;Riyadh;Building comprehensive frameworks for the telecommunications sector to enterprise clients.;www.smarttechh.com.sa;;5639000000
+SA-MOCK-106;Gulf Logistics 15;Telecommunications;Dammam;Expertly handles cutting-edge telecommunications technologies to enterprise clients with a strong focus on digital transformation.;www.gulflogist.com.sa;hello@gulflogist.com.sa;21632700000
+SA-MOCK-107;Global Star Company 36;Construction;Dammam;A pioneer in integrated construction services nationwide backed by years of deep industry expertise.;www.globalstar.com.sa;contact@globalstar.com.sa;96700000
+SA-MOCK-108;United Tech Technologies 48;Fintech;Riyadh;A pioneer in agile fintech services nationwide to streamline daily operations.;www.unitedtech.com.sa;;12000000
+SA-MOCK-109;United Technologies 68;Retail;Dammam;Operating primarily out of Dammam, they provide retail services across the Saudi market with a strong focus on digital transformation.;www.unitedtech.com.sa;sales@unitedtech.com.sa;3870300000
+SA-MOCK-110;Arabian Technologies 23;Manufacturing;Jeddah;Delivering cutting-edge solutions for the manufacturing sector nationwide.;;info@arabiantec.com.sa;6020200000
+SA-MOCK-111;Global Group 15;Banking;Riyadh;Leading the way in comprehensive banking technologies nationwide backed by years of deep industry expertise.;www.globalgrou.com.sa;;1577500000
+SA-MOCK-112;National Industries 59;Education;Jeddah;A fast-growing education startup building the next generation of technologies to enterprise clients.;;contact@nationalin.com.sa;27300000
+SA-MOCK-113;Saudi Company 42;Education;Riyadh;Driven by modern innovation, this enterprise focuses on education solutions in the MENA region.;www.saudicompa.com.sa;;502800000
+SA-MOCK-114;Arabian Tech Services 54;Education;Riyadh;Leading the way in comprehensive education platforms to enterprise clients with a strong focus on digital transformation.;;;1458500000
+SA-MOCK-115;United Pioneer Solutions 57;Energy;Jeddah;Dedicated to offering scalable energy systems for government entities with a strong focus on digital transformation.;www.unitedpion.com.sa;;1211000000
+SA-MOCK-116;Gulf Vision Holdings 40;Information Technology;Riyadh;Dedicated to offering data-driven information technology strategies in the MENA region empowering businesses to grow exponentially.;www.gulfvision.com.sa;;6211300000
+SA-MOCK-117;Al Apex Logistics 53;Information Technology;Jeddah;B2B information technology specialists focusing on cutting-edge frameworks with a strong focus on digital transformation.;www.alapexlogi.com.sa;sales@alapexlogi.com.sa;4399700000
+SA-MOCK-118;Arabian Group 41;Hospitality;Jeddah;Focuses on delivering agile hospitality solutions to enterprise clients to streamline daily operations.;www.arabiangro.com.sa;hello@arabiangro.com.sa;244800000
+SA-MOCK-119;Al Pioneer Logistics 55;Fintech;Jeddah;Focuses on delivering tailored fintech solutions nationwide backed by years of deep industry expertise.;www.alpioneerl.com.sa;contact@alpioneerl.com.sa;55300000
+SA-MOCK-120;Smart Pioneer Technologies 30;Healthcare;Riyadh;Expertly handles sustainable healthcare technologies nationwide with a strong focus on digital transformation.;;;137800000
+SA-MOCK-121;Saudi Corp 54;Hospitality;Jeddah;A fast-growing hospitality startup building the next generation of frameworks for the B2B sector.;www.saudicorp5.com.sa;info@saudicorp5.com.sa;12300000
+SA-MOCK-122;Global Pioneer Logistics 15;Energy;Jeddah;Operating primarily out of Jeddah, they provide energy services to enterprise clients to streamline daily operations.;www.globalpion.com.sa;;38043700000
+SA-MOCK-123;Smart Tech Services 76;Retail;Riyadh;A Riyadh-based firm that provides top-tier retail services for large corporations.;www.smarttechs.com.sa;;156600000
+SA-MOCK-124;Future Pioneer Company 17;Logistics;Jeddah;Leading the way in scalable logistics platforms for government entities enhancing customer experiences.;;info@futurepion.com.sa;1200900000
+SA-MOCK-125;Future Services 33;Logistics;Riyadh;Offers enterprise-grade logistics technologies nationwide enhancing customer experiences.;;contact@futureserv.com.sa;138300000
+SA-MOCK-126;Saudi Apex Company 20;Energy;Jeddah;A fast-growing energy startup building the next generation of solutions for large corporations.;;;20357000000
+SA-MOCK-127;Future Vision Industries 64;Hospitality;Dammam;Operating primarily out of Dammam, they provide hospitality services for large corporations to streamline daily operations.;www.futurevisi.com.sa;;235800000
+SA-MOCK-128;Smart Holdings 97;Construction;Riyadh;Expertly handles data-driven construction systems for government entities to streamline daily operations.;www.smartholdi.com.sa;sales@smartholdi.com.sa;165000000
+SA-MOCK-129;United Services 78;Logistics;Dammam;B2B logistics specialists focusing on scalable strategies empowering businesses to grow exponentially.;www.unitedserv.com.sa;sales@unitedserv.com.sa;93300000
+SA-MOCK-130;Future Logistics 34;Information Technology;Dammam;An established name in the information technology space, known for scalable services for large corporations.;www.futurelogi.com.sa;partners@futurelogi.com.sa;1935200000
+SA-MOCK-131;Global Tech Technologies 17;Education;Riyadh;Develops innovative education systems nationwide with a strong focus on digital transformation.;www.globaltech.com.sa;;14400000
+SA-MOCK-132;Global Tech Logistics 93;Education;Jeddah;Transforming the education landscape in Jeddah through comprehensive strategies.;www.globaltech.com.sa;hello@globaltech.com.sa;33500000
+SA-MOCK-133;Future Services 24;Banking;Dammam;Expertly handles agile banking systems nationwide driving efficiency and growth.;www.futureserv.com.sa;contact@futureserv.com.sa;6572100000
+SA-MOCK-134;Future Oasis Corp 49;Banking;Dammam;Focuses on delivering cutting-edge banking services in the MENA region backed by years of deep industry expertise.;www.futureoasi.com.sa;hello@futureoasi.com.sa;25337800000
+SA-MOCK-135;Saudi Company 65;Banking;Dammam;A fast-growing banking startup building the next generation of infrastructure for the B2B sector.;www.saudicompa.com.sa;;8464000000
+SA-MOCK-136;Al Tech Company 65;Fintech;Jeddah;Manages agile fintech solutions nationwide aligned closely with Vision 2030 objectives.;www.altechcomp.com.sa;;24700000
+SA-MOCK-137;Al Company 53;Retail;Riyadh;Expertly handles enterprise-grade retail strategies for local SMEs enhancing customer experiences.;www.alcompany5.com.sa;partners@alcompany5.com.sa;4039500000
+SA-MOCK-138;Gulf Vision Holdings 55;Telecommunications;Dammam;Expertly handles scalable telecommunications services for the B2B sector to streamline daily operations.;;;1023300000
+SA-MOCK-139;Gulf Star Company 99;Healthcare;Dammam;Manages data-driven healthcare technologies in the MENA region empowering businesses to grow exponentially.;www.gulfstarco.com.sa;contact@gulfstarco.com.sa;87200000
+SA-MOCK-140;Global Pioneer Industries 43;Construction;Jeddah;Operating primarily out of Jeddah, they provide construction services for government entities aligned closely with Vision 2030 objectives.;www.globalpion.com.sa;sales@globalpion.com.sa;146700000
+SA-MOCK-141;National Tech Services 77;Construction;Jeddah;Transforming the construction landscape in Jeddah through sustainable platforms.;www.nationalte.com.sa;sales@nationalte.com.sa;344100000
+SA-MOCK-142;United Oasis Technologies 29;Logistics;Riyadh;Operating primarily out of Riyadh, they provide logistics services in the MENA region aligned closely with Vision 2030 objectives.;www.unitedoasi.com.sa;hello@unitedoasi.com.sa;53600000
+SA-MOCK-143;Al Solutions 95;Education;Dammam;Specializes in providing cutting-edge education platforms across the Saudi market driving efficiency and growth.;;;25400000
+SA-MOCK-144;Al Company 98;Healthcare;Dammam;Driven by modern innovation, this enterprise focuses on healthcare systems for government entities.;www.alcompany9.com.sa;partners@alcompany9.com.sa;551200000
+SA-MOCK-145;Smart Apex Holdings 19;Manufacturing;Jeddah;Established in Jeddah, this company delivers data-driven manufacturing platforms driving efficiency and growth.;www.smartapexh.com.sa;partners@smartapexh.com.sa;1758300000
+SA-MOCK-146;Smart Star Solutions 83;Telecommunications;Jeddah;Transforming the telecommunications landscape in Jeddah through cutting-edge systems.;www.smartstars.com.sa;contact@smartstars.com.sa;733200000
+SA-MOCK-147;National Tech Solutions 54;Hospitality;Riyadh;A pioneer in agile hospitality strategies across the Saudi market to streamline daily operations.;www.nationalte.com.sa;;68100000
+SA-MOCK-148;Saudi Technologies 81;Energy;Dammam;Offers comprehensive energy systems for the B2B sector empowering businesses to grow exponentially.;www.sauditechn.com.sa;info@sauditechn.com.sa;27547600000
+SA-MOCK-149;Future Oasis Logistics 95;Logistics;Dammam;A fast-growing logistics startup building the next generation of technologies across the Saudi market.;www.futureoasi.com.sa;;4550600000
+SA-MOCK-150;Future Solutions 31;Healthcare;Dammam;A fast-growing healthcare startup building the next generation of frameworks to enterprise clients.;www.futuresolu.com.sa;info@futuresolu.com.sa;2490600000
+SA-MOCK-151;Smart Vision Corp 53;Energy;Jeddah;Driven by modern innovation, this enterprise focuses on energy infrastructure for large corporations.;www.smartvisio.com.sa;;11214600000
+SA-MOCK-152;Global Corp 37;Construction;Riyadh;A pioneer in integrated construction technologies across the Saudi market with a strong focus on digital transformation.;www.globalcorp.com.sa;hello@globalcorp.com.sa;672300000
+SA-MOCK-153;Smart Star Corp 78;Healthcare;Riyadh;Leading the way in comprehensive healthcare services for the B2B sector backed by years of deep industry expertise.;;info@smartstarc.com.sa;166800000
+SA-MOCK-154;National Company 28;Education;Dammam;Operating primarily out of Dammam, they provide education services to enterprise clients aligned closely with Vision 2030 objectives.;;sales@nationalco.com.sa;12000000
+SA-MOCK-155;Saudi Holdings 68;Information Technology;Dammam;Driven by modern innovation, this enterprise focuses on information technology services in the MENA region.;www.saudiholdi.com.sa;sales@saudiholdi.com.sa;54800000
+SA-MOCK-156;Arabian Corp 45;Healthcare;Jeddah;Expertly handles scalable healthcare systems for the B2B sector backed by years of deep industry expertise.;www.arabiancor.com.sa;hello@arabiancor.com.sa;9375700000
+SA-MOCK-157;National Industries 19;Construction;Dammam;Focuses on delivering tailored construction systems for local SMEs empowering businesses to grow exponentially.;;sales@nationalin.com.sa;1180100000
+SA-MOCK-158;National Industries 49;Energy;Dammam;Focuses on delivering sustainable energy infrastructure for large corporations with a strong focus on digital transformation.;;hello@nationalin.com.sa;38059100000
+SA-MOCK-159;Future Holdings 16;Real Estate;Riyadh;Expertly handles cutting-edge real estate systems for local SMEs backed by years of deep industry expertise.;www.futurehold.com.sa;info@futurehold.com.sa;89000000
+SA-MOCK-160;Smart Holdings 39;Information Technology;Riyadh;Manages integrated information technology systems for the B2B sector backed by years of deep industry expertise.;www.smartholdi.com.sa;;1262400000
+SA-MOCK-161;Gulf Star Corp 48;Retail;Riyadh;Offers sustainable retail platforms for large corporations aligned closely with Vision 2030 objectives.;www.gulfstarco.com.sa;;503100000
+SA-MOCK-162;Gulf Tech Corp 26;Hospitality;Jeddah;B2B hospitality specialists focusing on integrated solutions driving efficiency and growth.;www.gulftechco.com.sa;;479600000
+SA-MOCK-163;Al Corp 32;Real Estate;Jeddah;Leading the way in tailored real estate infrastructure in the MENA region enhancing customer experiences.;www.alcorp32.com.sa;info@alcorp32.com.sa;395400000
+SA-MOCK-164;Future Oasis Technologies 71;Healthcare;Jeddah;A Jeddah-based firm that deploys top-tier healthcare systems in the MENA region.;;sales@futureoasi.com.sa;14949700000
+SA-MOCK-165;United Star Holdings 21;Construction;Jeddah;Specializes in providing innovative construction frameworks for the B2B sector to streamline daily operations.;;;57500000
+SA-MOCK-166;United Technologies 88;Manufacturing;Riyadh;Offers enterprise-grade manufacturing platforms for large corporations with a strong focus on digital transformation.;;contact@unitedtech.com.sa;1543000000
+SA-MOCK-167;National Apex Company 84;Real Estate;Riyadh;A Riyadh-based firm that builds top-tier real estate services in the MENA region.;www.nationalap.com.sa;partners@nationalap.com.sa;3212800000
+SA-MOCK-168;National Group 99;Real Estate;Dammam;Driven by modern innovation, this enterprise focuses on real estate infrastructure to enterprise clients.;www.nationalgr.com.sa;partners@nationalgr.com.sa;7277800000
+SA-MOCK-169;Smart Logistics 12;Healthcare;Dammam;One of the key healthcare entities in Dammam, offering agile services to streamline daily operations.;www.smartlogis.com.sa;partners@smartlogis.com.sa;3788700000
+SA-MOCK-170;Future Star Solutions 81;Construction;Dammam;Delivering data-driven solutions for the construction sector nationwide.;;contact@futurestar.com.sa;1195700000
+SA-MOCK-171;Global Star Corp 20;Hospitality;Jeddah;Manages tailored hospitality services for large corporations to streamline daily operations.;www.globalstar.com.sa;;668900000
+SA-MOCK-172;Future Solutions 97;Real Estate;Jeddah;An established name in the real estate space, known for integrated infrastructure for government entities.;;sales@futuresolu.com.sa;7838200000
+SA-MOCK-173;Global Logistics 76;Construction;Dammam;Offers tailored construction solutions for local SMEs aligned closely with Vision 2030 objectives.;www.globallogi.com.sa;;218700000
+SA-MOCK-174;National Oasis Solutions 60;Manufacturing;Dammam;Expertly handles data-driven manufacturing frameworks for large corporations to streamline daily operations.;www.nationaloa.com.sa;contact@nationaloa.com.sa;3097000000
+SA-MOCK-175;Al Group 42;Banking;Jeddah;One of the key banking entities in Jeddah, offering enterprise-grade frameworks driving efficiency and growth.;www.algroup42.com.sa;contact@algroup42.com.sa;31669500000
+SA-MOCK-176;Al Tech Industries 20;Healthcare;Riyadh;Specializes in providing cutting-edge healthcare technologies across the Saudi market aligned closely with Vision 2030 objectives.;www.altechindu.com.sa;sales@altechindu.com.sa;7640200000
+SA-MOCK-177;Saudi Star Corp 15;Education;Jeddah;B2B education specialists focusing on data-driven platforms with a strong focus on digital transformation.;;info@saudistarc.com.sa;91200000
+SA-MOCK-178;Smart Oasis Logistics 94;Education;Jeddah;One of the key education entities in Jeddah, offering data-driven services driving efficiency and growth.;www.smartoasis.com.sa;info@smartoasis.com.sa;659200000
+SA-MOCK-179;Future Services 52;Construction;Jeddah;Develops scalable construction infrastructure for the B2B sector backed by years of deep industry expertise.;www.futureserv.com.sa;sales@futureserv.com.sa;2586300000
+SA-MOCK-180;Global Logistics 42;Education;Dammam;A Dammam-based firm that provides top-tier education infrastructure for government entities.;www.globallogi.com.sa;;208000000
+SA-MOCK-181;Al Industries 78;Telecommunications;Riyadh;Driven by modern innovation, this enterprise focuses on telecommunications platforms for government entities.;;partners@alindustri.com.sa;7111800000
+SA-MOCK-182;Gulf Industries 84;Manufacturing;Jeddah;Develops tailored manufacturing systems for the B2B sector empowering businesses to grow exponentially.;;;679200000
+SA-MOCK-183;Arabian Group 71;Fintech;Riyadh;An established name in the fintech space, known for integrated technologies for large corporations.;www.arabiangro.com.sa;sales@arabiangro.com.sa;138800000
+SA-MOCK-184;Smart Oasis Technologies 68;Banking;Jeddah;Transforming the banking landscape in Jeddah through comprehensive technologies.;www.smartoasis.com.sa;;8254700000
+SA-MOCK-185;Gulf Oasis Technologies 14;Energy;Dammam;Develops sustainable energy infrastructure for local SMEs to streamline daily operations.;www.gulfoasist.com.sa;;717300000
+SA-MOCK-186;Al Holdings 57;Real Estate;Jeddah;Dedicated to offering innovative real estate technologies nationwide empowering businesses to grow exponentially.;www.alholdings.com.sa;sales@alholdings.com.sa;1970100000
+SA-MOCK-187;Smart Company 17;Real Estate;Dammam;Offers agile real estate solutions in the MENA region enhancing customer experiences.;www.smartcompa.com.sa;;11605100000
+SA-MOCK-188;National Apex Solutions 30;Retail;Riyadh;Established in Riyadh, this company delivers agile retail solutions driving efficiency and growth.;www.nationalap.com.sa;sales@nationalap.com.sa;3374600000
+SA-MOCK-189;Saudi Group 39;Manufacturing;Riyadh;Specializes in providing integrated manufacturing infrastructure in the MENA region aligned closely with Vision 2030 objectives.;www.saudigroup.com.sa;;3842800000
+SA-MOCK-190;Al Apex Logistics 32;Retail;Dammam;An established name in the retail space, known for agile strategies for large corporations.;www.alapexlogi.com.sa;;321100000
+SA-MOCK-191;Al Tech Services 34;Energy;Dammam;B2B energy specialists focusing on enterprise-grade strategies driving efficiency and growth.;;info@altechserv.com.sa;13658800000
+SA-MOCK-192;Saudi Corp 44;Energy;Jeddah;Dedicated to offering cutting-edge energy services in the MENA region enhancing customer experiences.;www.saudicorp4.com.sa;;6828000000
+SA-MOCK-193;Gulf Vision Logistics 23;Real Estate;Jeddah;B2B real estate specialists focusing on cutting-edge solutions backed by years of deep industry expertise.;www.gulfvision.com.sa;;727300000
+SA-MOCK-194;Al Logistics 45;Manufacturing;Dammam;Leading the way in enterprise-grade manufacturing strategies nationwide empowering businesses to grow exponentially.;www.allogistic.com.sa;;6673700000
+SA-MOCK-195;Arabian Oasis Logistics 22;Manufacturing;Jeddah;A Jeddah-based firm that provides top-tier manufacturing strategies nationwide.;www.arabianoas.com.sa;contact@arabianoas.com.sa;152200000
+SA-MOCK-196;Saudi Pioneer Holdings 83;Manufacturing;Riyadh;Manages integrated manufacturing strategies for government entities to streamline daily operations.;www.saudipione.com.sa;info@saudipione.com.sa;4290700000
+SA-MOCK-197;Al Pioneer Company 65;Information Technology;Jeddah;A fast-growing information technology startup building the next generation of solutions nationwide.;www.alpioneerc.com.sa;;58200000
+SA-MOCK-198;Global Vision Corp 52;Education;Riyadh;Expertly handles comprehensive education systems for local SMEs backed by years of deep industry expertise.;;contact@globalvisi.com.sa;241900000
+SA-MOCK-199;National Pioneer Corp 47;Construction;Jeddah;Designing agile technologies for the construction sector for large corporations.;www.nationalpi.com.sa;hello@nationalpi.com.sa;407900000
+SA-MOCK-200;National Corp 10;Hospitality;Riyadh;One of the key hospitality entities in Riyadh, offering cutting-edge technologies enhancing customer experiences.;;;33900000
+SA-MOCK-201;Smart Tech Solutions 76;Fintech;Jeddah;Manages cutting-edge fintech systems in the MENA region to streamline daily operations.;www.smarttechs.com.sa;;268400000
+SA-MOCK-202;National Technologies 38;Fintech;Jeddah;Providing comprehensive solutions for the fintech sector nationwide.;;sales@nationalte.com.sa;85300000
+SA-MOCK-203;National Oasis Corp 38;Energy;Dammam;A Dammam-based firm that designs top-tier energy services for local SMEs.;www.nationaloa.com.sa;hello@nationaloa.com.sa;7940700000
+SA-MOCK-204;National Technologies 39;Logistics;Dammam;Focuses on delivering sustainable logistics systems nationwide enhancing customer experiences.;www.nationalte.com.sa;;3405600000
+SA-MOCK-205;Smart Corp 21;Healthcare;Jeddah;Transforming the healthcare landscape in Jeddah through enterprise-grade strategies.;;partners@smartcorp2.com.sa;305200000
+SA-MOCK-206;United Pioneer Industries 40;Telecommunications;Riyadh;Dedicated to offering data-driven telecommunications platforms for large corporations backed by years of deep industry expertise.;;hello@unitedpion.com.sa;421400000
+SA-MOCK-207;Smart Tech Corp 41;Hospitality;Riyadh;Operating primarily out of Riyadh, they provide hospitality services across the Saudi market to streamline daily operations.;www.smarttechc.com.sa;hello@smarttechc.com.sa;49300000
+SA-MOCK-208;Gulf Solutions 89;Logistics;Dammam;Manages sustainable logistics strategies for local SMEs with a strong focus on digital transformation.;;contact@gulfsoluti.com.sa;1056900000
+SA-MOCK-209;Global Technologies 96;Hospitality;Jeddah;Develops innovative hospitality technologies for government entities empowering businesses to grow exponentially.;www.globaltech.com.sa;;29300000
+SA-MOCK-210;Al Corp 27;Real Estate;Riyadh;Focuses on delivering cutting-edge real estate platforms across the Saudi market aligned closely with Vision 2030 objectives.;www.alcorp27.com.sa;hello@alcorp27.com.sa;187100000
+SA-MOCK-211;Al Oasis Corp 61;Banking;Dammam;An established name in the banking space, known for cutting-edge services in the MENA region.;www.aloasiscor.com.sa;sales@aloasiscor.com.sa;32390200000
+SA-MOCK-212;Al Services 56;Education;Jeddah;Develops innovative education systems for local SMEs to streamline daily operations.;;contact@alservices.com.sa;330100000
+SA-MOCK-213;Al Apex Corp 65;Energy;Dammam;One of the key energy entities in Dammam, offering cutting-edge strategies empowering businesses to grow exponentially.;www.alapexcorp.com.sa;;3652700000
+SA-MOCK-214;Smart Star Technologies 22;Education;Jeddah;Leading the way in innovative education infrastructure for local SMEs enhancing customer experiences.;www.smartstart.com.sa;sales@smartstart.com.sa;1126900000
+SA-MOCK-215;Smart Oasis Solutions 37;Retail;Riyadh;Driven by modern innovation, this enterprise focuses on retail services across the Saudi market.;www.smartoasis.com.sa;;239200000
+SA-MOCK-216;Gulf Star Group 90;Healthcare;Jeddah;One of the key healthcare entities in Jeddah, offering agile systems with a strong focus on digital transformation.;www.gulfstargr.com.sa;contact@gulfstargr.com.sa;2610200000
+SA-MOCK-217;National Oasis Logistics 35;Energy;Riyadh;Driven by modern innovation, this enterprise focuses on energy frameworks for government entities.;;partners@nationaloa.com.sa;1221500000
+SA-MOCK-218;United Company 50;Manufacturing;Riyadh;An established name in the manufacturing space, known for integrated infrastructure in the MENA region.;;contact@unitedcomp.com.sa;866300000
+SA-MOCK-219;Arabian Oasis Company 25;Logistics;Riyadh;An established name in the logistics space, known for scalable platforms for the B2B sector.;;contact@arabianoas.com.sa;1959500000
+SA-MOCK-220;Smart Apex Group 68;Construction;Dammam;Established in Dammam, this company provides cutting-edge construction technologies to streamline daily operations.;www.smartapexg.com.sa;contact@smartapexg.com.sa;3304500000
+SA-MOCK-221;National Oasis Holdings 68;Retail;Dammam;Expertly handles innovative retail systems for local SMEs enhancing customer experiences.;www.nationaloa.com.sa;;3382300000
+SA-MOCK-222;Saudi Services 90;Hospitality;Jeddah;Operating primarily out of Jeddah, they provide hospitality services to enterprise clients with a strong focus on digital transformation.;www.saudiservi.com.sa;;76700000
+SA-MOCK-223;Future Oasis Industries 92;Healthcare;Dammam;Offers innovative healthcare platforms for large corporations backed by years of deep industry expertise.;www.futureoasi.com.sa;hello@futureoasi.com.sa;1692400000
+SA-MOCK-224;United Oasis Solutions 66;Fintech;Dammam;Expertly handles integrated fintech services to enterprise clients driving efficiency and growth.;www.unitedoasi.com.sa;info@unitedoasi.com.sa;30400000
+SA-MOCK-225;Arabian Star Services 19;Education;Jeddah;An established name in the education space, known for integrated frameworks for local SMEs.;www.arabiansta.com.sa;sales@arabiansta.com.sa;20600000
+SA-MOCK-226;Global Services 71;Hospitality;Riyadh;Expertly handles comprehensive hospitality strategies across the Saudi market empowering businesses to grow exponentially.;;partners@globalserv.com.sa;138800000
+SA-MOCK-227;Future Tech Holdings 18;Banking;Dammam;Operating primarily out of Dammam, they provide banking services for the B2B sector to streamline daily operations.;;;23613500000
+SA-MOCK-228;Al Apex Corp 25;Banking;Dammam;A Dammam-based firm that designs top-tier banking strategies for government entities.;www.alapexcorp.com.sa;;24912100000
+SA-MOCK-229;Gulf Industries 31;Telecommunications;Jeddah;A Jeddah-based firm that designs top-tier telecommunications frameworks for the B2B sector.;www.gulfindust.com.sa;;10580200000
+SA-MOCK-230;Global Corp 61;Logistics;Jeddah;Operating primarily out of Jeddah, they provide logistics services across the Saudi market enhancing customer experiences.;www.globalcorp.com.sa;contact@globalcorp.com.sa;3927600000
+SA-MOCK-231;Arabian Oasis Solutions 77;Manufacturing;Jeddah;Focuses on delivering enterprise-grade manufacturing technologies for large corporations with a strong focus on digital transformation.;;;400300000
+SA-MOCK-232;National Solutions 66;Construction;Riyadh;Providing agile solutions for the construction sector for government entities.;www.nationalso.com.sa;;90500000
+SA-MOCK-233;Saudi Tech Services 39;Manufacturing;Jeddah;Focuses on delivering innovative manufacturing solutions for local SMEs with a strong focus on digital transformation.;www.sauditechs.com.sa;info@sauditechs.com.sa;956400000
+SA-MOCK-234;Smart Company 56;Energy;Jeddah;Driven by modern innovation, this enterprise focuses on energy frameworks for local SMEs.;;info@smartcompa.com.sa;1724700000
+SA-MOCK-235;Global Company 35;Information Technology;Riyadh;Expertly handles comprehensive information technology services for the B2B sector empowering businesses to grow exponentially.;;;148200000
+SA-MOCK-236;United Industries 31;Real Estate;Dammam;Specializes in providing scalable real estate strategies for local SMEs with a strong focus on digital transformation.;www.unitedindu.com.sa;;636700000
+SA-MOCK-237;Smart Logistics 18;Retail;Dammam;A pioneer in agile retail systems for local SMEs to streamline daily operations.;www.smartlogis.com.sa;;1000000000
+SA-MOCK-238;Saudi Apex Group 62;Education;Jeddah;A pioneer in tailored education services in the MENA region backed by years of deep industry expertise.;www.saudiapexg.com.sa;partners@saudiapexg.com.sa;136900000
+SA-MOCK-239;Smart Pioneer Group 73;Education;Riyadh;Operating primarily out of Riyadh, they provide education services for large corporations driving efficiency and growth.;www.smartpione.com.sa;;53200000
+SA-MOCK-240;Saudi Apex Corp 73;Fintech;Dammam;An established name in the fintech space, known for sustainable platforms nationwide.;;sales@saudiapexc.com.sa;599200000
+SA-MOCK-241;Gulf Services 18;Banking;Riyadh;One of the key banking entities in Riyadh, offering innovative infrastructure to streamline daily operations.;www.gulfservic.com.sa;;46030200000
+SA-MOCK-242;Global Apex Services 19;Healthcare;Dammam;Driven by modern innovation, this enterprise focuses on healthcare systems across the Saudi market.;;partners@globalapex.com.sa;854200000
+SA-MOCK-243;Gulf Technologies 56;Healthcare;Jeddah;Deploying sustainable systems for the healthcare sector in the MENA region.;www.gulftechno.com.sa;;118300000
+SA-MOCK-244;Arabian Company 79;Healthcare;Dammam;Specializes in providing comprehensive healthcare technologies for government entities driving efficiency and growth.;www.arabiancom.com.sa;;94300000
+SA-MOCK-245;Smart Apex Holdings 37;Telecommunications;Riyadh;Offers sustainable telecommunications technologies nationwide backed by years of deep industry expertise.;www.smartapexh.com.sa;;22269900000
+SA-MOCK-246;Smart Star Holdings 44;Telecommunications;Jeddah;Dedicated to offering data-driven telecommunications platforms for large corporations backed by years of deep industry expertise.;www.smartstarh.com.sa;hello@smartstarh.com.sa;484200000
+SA-MOCK-247;Smart Pioneer Company 97;Telecommunications;Jeddah;Expertly handles scalable telecommunications services to enterprise clients with a strong focus on digital transformation.;www.smartpione.com.sa;info@smartpione.com.sa;10454900000
+SA-MOCK-248;Future Services 67;Energy;Riyadh;Manages agile energy frameworks to enterprise clients to streamline daily operations.;;sales@futureserv.com.sa;6516700000
+SA-MOCK-249;Future Oasis Technologies 60;Energy;Jeddah;Focuses on delivering integrated energy technologies for large corporations enhancing customer experiences.;www.futureoasi.com.sa;;2008600000
+SA-MOCK-250;Al Logistics 98;Banking;Dammam;A fast-growing banking startup building the next generation of strategies for government entities.;www.allogistic.com.sa;;19142400000
+SA-MOCK-251;Gulf Apex Logistics 75;Banking;Dammam;Specializes in providing sustainable banking systems nationwide enhancing customer experiences.;;;546000000
+SA-MOCK-252;Global Logistics 34;Retail;Riyadh;B2B retail specialists focusing on innovative technologies empowering businesses to grow exponentially.;;;95800000
+SA-MOCK-253;Smart Tech Solutions 44;Education;Dammam;Providing data-driven strategies for the education sector in the MENA region.;www.smarttechs.com.sa;hello@smarttechs.com.sa;111300000
+SA-MOCK-254;National Apex Technologies 76;Telecommunications;Riyadh;Dedicated to offering integrated telecommunications systems nationwide to streamline daily operations.;;contact@nationalap.com.sa;448200000
+SA-MOCK-255;National Company 60;Healthcare;Dammam;Develops innovative healthcare solutions for the B2B sector with a strong focus on digital transformation.;;;6150700000
+SA-MOCK-256;Saudi Holdings 62;Energy;Riyadh;Leading the way in agile energy infrastructure across the Saudi market to streamline daily operations.;www.saudiholdi.com.sa;;1455200000
+SA-MOCK-257;Al Apex Logistics 54;Energy;Dammam;A fast-growing energy startup building the next generation of infrastructure for large corporations.;www.alapexlogi.com.sa;info@alapexlogi.com.sa;942500000
+SA-MOCK-258;Saudi Vision Group 32;Manufacturing;Dammam;A pioneer in sustainable manufacturing infrastructure nationwide with a strong focus on digital transformation.;www.saudivisio.com.sa;partners@saudivisio.com.sa;126500000
+SA-MOCK-259;Al Corp 16;Logistics;Dammam;An established name in the logistics space, known for innovative solutions for large corporations.;www.alcorp16.com.sa;partners@alcorp16.com.sa;834400000
+SA-MOCK-260;Smart Pioneer Solutions 73;Energy;Jeddah;One of the key energy entities in Jeddah, offering sustainable systems backed by years of deep industry expertise.;www.smartpione.com.sa;partners@smartpione.com.sa;3728200000
+SA-MOCK-261;National Technologies 71;Education;Riyadh;Established in Riyadh, this company provides comprehensive education solutions to streamline daily operations.;www.nationalte.com.sa;sales@nationalte.com.sa;281600000
+SA-MOCK-262;Saudi Logistics 72;Real Estate;Jeddah;An established name in the real estate space, known for comprehensive services for government entities.;;sales@saudilogis.com.sa;2130700000
+SA-MOCK-263;Smart Pioneer Solutions 75;Healthcare;Riyadh;Expertly handles enterprise-grade healthcare systems to enterprise clients aligned closely with Vision 2030 objectives.;www.smartpione.com.sa;partners@smartpione.com.sa;5473600000
+SA-MOCK-264;Global Solutions 85;Energy;Riyadh;Focuses on delivering tailored energy platforms in the MENA region enhancing customer experiences.;www.globalsolu.com.sa;;37328000000
+SA-MOCK-265;National Services 88;Hospitality;Dammam;Established in Dammam, this company delivers comprehensive hospitality platforms aligned closely with Vision 2030 objectives.;;;375900000
+SA-MOCK-266;Al Corp 34;Real Estate;Dammam;A fast-growing real estate startup building the next generation of platforms to enterprise clients.;;contact@alcorp34.com.sa;217200000
+SA-MOCK-267;Al Tech Logistics 28;Hospitality;Riyadh;Develops tailored hospitality frameworks for local SMEs aligned closely with Vision 2030 objectives.;www.altechlogi.com.sa;;124000000
+SA-MOCK-268;Al Vision Company 13;Manufacturing;Riyadh;Focuses on delivering cutting-edge manufacturing strategies to enterprise clients backed by years of deep industry expertise.;www.alvisionco.com.sa;contact@alvisionco.com.sa;244800000
+SA-MOCK-269;Al Services 70;Real Estate;Riyadh;Dedicated to offering enterprise-grade real estate infrastructure for government entities to streamline daily operations.;www.alservices.com.sa;hello@alservices.com.sa;84400000
+SA-MOCK-270;Al Services 57;Telecommunications;Dammam;Develops enterprise-grade telecommunications solutions to enterprise clients to streamline daily operations.;www.alservices.com.sa;;3519300000
+SA-MOCK-271;Global Star Technologies 95;Manufacturing;Jeddah;A Jeddah-based firm that deploys top-tier manufacturing systems nationwide.;;;3581800000
+SA-MOCK-272;United Solutions 68;Construction;Riyadh;Expertly handles tailored construction strategies for the B2B sector backed by years of deep industry expertise.;;contact@unitedsolu.com.sa;95000000
+SA-MOCK-273;Future Holdings 98;Telecommunications;Riyadh;One of the key telecommunications entities in Riyadh, offering cutting-edge infrastructure aligned closely with Vision 2030 objectives.;www.futurehold.com.sa;info@futurehold.com.sa;1402100000
+SA-MOCK-274;Smart Industries 12;Construction;Riyadh;Offers agile construction solutions to enterprise clients aligned closely with Vision 2030 objectives.;www.smartindus.com.sa;;212300000
+SA-MOCK-275;Al Apex Services 87;Construction;Jeddah;A pioneer in data-driven construction strategies for large corporations with a strong focus on digital transformation.;www.alapexserv.com.sa;contact@alapexserv.com.sa;1159500000
+SA-MOCK-276;Gulf Services 13;Telecommunications;Dammam;Focuses on delivering tailored telecommunications systems for the B2B sector backed by years of deep industry expertise.;;sales@gulfservic.com.sa;4394500000
+SA-MOCK-277;Smart Oasis Solutions 70;Education;Jeddah;Operating primarily out of Jeddah, they provide education services for large corporations enhancing customer experiences.;www.smartoasis.com.sa;sales@smartoasis.com.sa;259300000
+SA-MOCK-278;National Apex Holdings 51;Education;Dammam;Manages sustainable education frameworks for the B2B sector enhancing customer experiences.;www.nationalap.com.sa;contact@nationalap.com.sa;549600000
+SA-MOCK-279;Saudi Logistics 46;Education;Riyadh;Operating primarily out of Riyadh, they provide education services nationwide driving efficiency and growth.;;hello@saudilogis.com.sa;80400000
+SA-MOCK-280;Al Oasis Corp 48;Education;Dammam;Manages innovative education solutions nationwide to streamline daily operations.;www.aloasiscor.com.sa;sales@aloasiscor.com.sa;664100000
+SA-MOCK-281;Smart Vision Solutions 98;Information Technology;Dammam;Driven by modern innovation, this enterprise focuses on information technology platforms in the MENA region.;;partners@smartvisio.com.sa;4970800000
+SA-MOCK-282;Global Logistics 96;Banking;Jeddah;Operating primarily out of Jeddah, they provide banking services across the Saudi market to streamline daily operations.;www.globallogi.com.sa;contact@globallogi.com.sa;747100000
+SA-MOCK-283;Arabian Corp 91;Telecommunications;Riyadh;Transforming the telecommunications landscape in Riyadh through data-driven platforms.;;partners@arabiancor.com.sa;29327000000
+SA-MOCK-284;Saudi Star Holdings 85;Education;Jeddah;Dedicated to offering integrated education systems for local SMEs aligned closely with Vision 2030 objectives.;;;459400000
+SA-MOCK-285;Saudi Technologies 96;Healthcare;Dammam;One of the key healthcare entities in Dammam, offering data-driven solutions empowering businesses to grow exponentially.;www.sauditechn.com.sa;partners@sauditechn.com.sa;157900000
+SA-MOCK-286;Global Pioneer Corp 10;Telecommunications;Dammam;Expertly handles comprehensive telecommunications strategies nationwide with a strong focus on digital transformation.;www.globalpion.com.sa;;3229500000
+SA-MOCK-287;Smart Logistics 69;Information Technology;Dammam;An established name in the information technology space, known for enterprise-grade infrastructure for local SMEs.;;;1196100000
+SA-MOCK-288;Global Vision Logistics 39;Logistics;Jeddah;Focuses on delivering cutting-edge logistics systems in the MENA region backed by years of deep industry expertise.;;;3237200000
+SA-MOCK-289;Saudi Solutions 47;Retail;Dammam;Driven by modern innovation, this enterprise focuses on retail frameworks nationwide.;;info@saudisolut.com.sa;303700000
+SA-MOCK-290;Smart Company 78;Banking;Jeddah;One of the key banking entities in Jeddah, offering scalable strategies aligned closely with Vision 2030 objectives.;www.smartcompa.com.sa;partners@smartcompa.com.sa;6864300000
+SA-MOCK-291;Gulf Industries 95;Healthcare;Riyadh;One of the key healthcare entities in Riyadh, offering data-driven services backed by years of deep industry expertise.;www.gulfindust.com.sa;;7976000000
+SA-MOCK-292;National Technologies 15;Banking;Riyadh;One of the key banking entities in Riyadh, offering agile technologies with a strong focus on digital transformation.;www.nationalte.com.sa;contact@nationalte.com.sa;19611200000
+SA-MOCK-293;Smart Vision Group 93;Real Estate;Dammam;Specializes in providing cutting-edge real estate platforms for large corporations with a strong focus on digital transformation.;;;9075700000
+SA-MOCK-294;Saudi Star Solutions 53;Real Estate;Riyadh;Operating primarily out of Riyadh, they provide real estate services across the Saudi market backed by years of deep industry expertise.;www.saudistars.com.sa;sales@saudistars.com.sa;816900000
+SA-MOCK-295;Arabian Technologies 38;Real Estate;Riyadh;Transforming the real estate landscape in Riyadh through scalable platforms.;;;2091400000
+SA-MOCK-296;National Logistics 18;Information Technology;Dammam;Offers enterprise-grade information technology infrastructure in the MENA region with a strong focus on digital transformation.;www.nationallo.com.sa;;141400000
+SA-MOCK-297;Future Pioneer Technologies 34;Banking;Dammam;Driven by modern innovation, this enterprise focuses on banking platforms for government entities.;www.futurepion.com.sa;;13894400000
+SA-MOCK-298;Global Pioneer Holdings 56;Telecommunications;Riyadh;A Riyadh-based firm that designs top-tier telecommunications technologies across the Saudi market.;www.globalpion.com.sa;;17328100000
+SA-MOCK-299;Al Vision Logistics 48;Education;Dammam;Develops sustainable education frameworks to enterprise clients aligned closely with Vision 2030 objectives.;www.alvisionlo.com.sa;;299500000
+SA-MOCK-300;United Technologies 83;Banking;Riyadh;Expertly handles data-driven banking frameworks for large corporations aligned closely with Vision 2030 objectives.;www.unitedtech.com.sa;hello@unitedtech.com.sa;13623700000
+SA-MOCK-301;National Vision Solutions 84;Manufacturing;Riyadh;Transforming the manufacturing landscape in Riyadh through integrated solutions.;;;291200000
+SA-MOCK-302;Gulf Apex Corp 69;Construction;Jeddah;B2B construction specialists focusing on scalable services with a strong focus on digital transformation.;www.gulfapexco.com.sa;contact@gulfapexco.com.sa;3084900000
+SA-MOCK-303;Global Star Solutions 25;Information Technology;Jeddah;Focuses on delivering agile information technology systems for government entities driving efficiency and growth.;www.globalstar.com.sa;partners@globalstar.com.sa;7245900000
+SA-MOCK-304;United Apex Technologies 79;Telecommunications;Jeddah;A fast-growing telecommunications startup building the next generation of technologies for local SMEs.;www.unitedapex.com.sa;;36039400000
+SA-MOCK-305;National Tech Services 90;Education;Riyadh;Dedicated to offering agile education systems nationwide aligned closely with Vision 2030 objectives.;www.nationalte.com.sa;partners@nationalte.com.sa;172000000
+SA-MOCK-306;Future Tech Solutions 18;Banking;Dammam;One of the key banking entities in Dammam, offering sustainable technologies backed by years of deep industry expertise.;;partners@futuretech.com.sa;19078500000
+SA-MOCK-307;United Pioneer Solutions 85;Fintech;Riyadh;An established name in the fintech space, known for tailored frameworks to enterprise clients.;www.unitedpion.com.sa;;31100000
+SA-MOCK-308;National Vision Holdings 11;Information Technology;Jeddah;One of the key information technology entities in Jeddah, offering innovative solutions empowering businesses to grow exponentially.;www.nationalvi.com.sa;;5066400000
+SA-MOCK-309;United Star Industries 98;Information Technology;Dammam;Transforming the information technology landscape in Dammam through cutting-edge platforms.;www.unitedstar.com.sa;;3847900000
+SA-MOCK-310;Gulf Apex Technologies 63;Energy;Riyadh;Dedicated to offering tailored energy solutions to enterprise clients to streamline daily operations.;;info@gulfapexte.com.sa;2399000000
+SA-MOCK-311;National Oasis Services 77;Construction;Dammam;Established in Dammam, this company delivers innovative construction technologies driving efficiency and growth.;www.nationaloa.com.sa;contact@nationaloa.com.sa;59700000
+SA-MOCK-312;National Solutions 58;Construction;Dammam;A pioneer in tailored construction strategies for the B2B sector aligned closely with Vision 2030 objectives.;www.nationalso.com.sa;partners@nationalso.com.sa;336200000
+SA-MOCK-313;Global Solutions 48;Banking;Dammam;Develops innovative banking solutions in the MENA region backed by years of deep industry expertise.;;contact@globalsolu.com.sa;6303400000
+SA-MOCK-314;Arabian Oasis Solutions 41;Banking;Jeddah;Dedicated to offering integrated banking frameworks for local SMEs enhancing customer experiences.;www.arabianoas.com.sa;sales@arabianoas.com.sa;17196400000
+SA-MOCK-315;Global Oasis Company 49;Logistics;Riyadh;Transforming the logistics landscape in Riyadh through scalable technologies.;;info@globaloasi.com.sa;420900000
+SA-MOCK-316;National Services 84;Fintech;Jeddah;Develops comprehensive fintech frameworks nationwide with a strong focus on digital transformation.;www.nationalse.com.sa;;5900000
+SA-MOCK-317;Global Corp 49;Manufacturing;Jeddah;Designing data-driven infrastructure for the manufacturing sector across the Saudi market.;www.globalcorp.com.sa;info@globalcorp.com.sa;5764500000
+SA-MOCK-318;Smart Pioneer Group 60;Energy;Dammam;B2B energy specialists focusing on innovative solutions empowering businesses to grow exponentially.;;;667000000
+SA-MOCK-319;Gulf Star Corp 51;Education;Riyadh;A Riyadh-based firm that delivers top-tier education frameworks nationwide.;www.gulfstarco.com.sa;hello@gulfstarco.com.sa;692600000
+SA-MOCK-320;Al Star Solutions 55;Education;Jeddah;Manages cutting-edge education platforms nationwide to streamline daily operations.;www.alstarsolu.com.sa;info@alstarsolu.com.sa;25000000
+SA-MOCK-321;Gulf Star Solutions 48;Healthcare;Dammam;Expertly handles innovative healthcare solutions for local SMEs with a strong focus on digital transformation.;;info@gulfstarso.com.sa;461900000
+SA-MOCK-322;Smart Star Company 40;Manufacturing;Riyadh;Delivering sustainable technologies for the manufacturing sector in the MENA region.;www.smartstarc.com.sa;;5182700000
+SA-MOCK-323;Global Logistics 98;Fintech;Dammam;Driven by modern innovation, this enterprise focuses on fintech strategies for the B2B sector.;www.globallogi.com.sa;;11100000
+SA-MOCK-324;Global Group 86;Fintech;Jeddah;An established name in the fintech space, known for agile infrastructure to enterprise clients.;;hello@globalgrou.com.sa;11700000
+SA-MOCK-325;United Services 78;Logistics;Dammam;A pioneer in enterprise-grade logistics solutions for the B2B sector with a strong focus on digital transformation.;;contact@unitedserv.com.sa;484400000
+SA-MOCK-326;National Corp 10;Real Estate;Jeddah;Focuses on delivering cutting-edge real estate frameworks nationwide driving efficiency and growth.;www.nationalco.com.sa;;3003600000
+SA-MOCK-327;United Oasis Logistics 14;Construction;Riyadh;A pioneer in enterprise-grade construction platforms for government entities to streamline daily operations.;www.unitedoasi.com.sa;;2309000000
+SA-MOCK-328;United Holdings 29;Logistics;Jeddah;Leading the way in scalable logistics strategies for local SMEs with a strong focus on digital transformation.;;;1115900000
+SA-MOCK-329;Arabian Pioneer Technologies 14;Logistics;Riyadh;Expertly handles integrated logistics frameworks in the MENA region enhancing customer experiences.;www.arabianpio.com.sa;info@arabianpio.com.sa;3847800000
+SA-MOCK-330;Smart Apex Solutions 55;Energy;Dammam;Expertly handles comprehensive energy technologies to enterprise clients with a strong focus on digital transformation.;www.smartapexs.com.sa;;4587700000
+SA-MOCK-331;National Technologies 43;Energy;Dammam;Driven by modern innovation, this enterprise focuses on energy solutions for the B2B sector.;www.nationalte.com.sa;hello@nationalte.com.sa;35797100000
+SA-MOCK-332;Gulf Star Technologies 55;Manufacturing;Dammam;Building sustainable technologies for the manufacturing sector across the Saudi market.;www.gulfstarte.com.sa;contact@gulfstarte.com.sa;153900000
+SA-MOCK-333;Global Technologies 13;Real Estate;Jeddah;Dedicated to offering sustainable real estate solutions to enterprise clients with a strong focus on digital transformation.;www.globaltech.com.sa;partners@globaltech.com.sa;242600000
+SA-MOCK-334;National Apex Technologies 41;Real Estate;Dammam;Expertly handles comprehensive real estate strategies across the Saudi market aligned closely with Vision 2030 objectives.;www.nationalap.com.sa;contact@nationalap.com.sa;1119800000
+SA-MOCK-335;United Pioneer Corp 26;Telecommunications;Dammam;Focuses on delivering cutting-edge telecommunications strategies for large corporations empowering businesses to grow exponentially.;;contact@unitedpion.com.sa;1521900000
+SA-MOCK-336;Global Solutions 28;Energy;Riyadh;An established name in the energy space, known for sustainable systems to enterprise clients.;www.globalsolu.com.sa;hello@globalsolu.com.sa;13283300000
+SA-MOCK-337;Smart Services 48;Real Estate;Riyadh;Operating primarily out of Riyadh, they provide real estate services to enterprise clients to streamline daily operations.;www.smartservi.com.sa;info@smartservi.com.sa;1964900000
+SA-MOCK-338;Gulf Vision Corp 47;Information Technology;Jeddah;Dedicated to offering agile information technology systems for local SMEs to streamline daily operations.;;hello@gulfvision.com.sa;710000000
+SA-MOCK-339;Smart Holdings 49;Banking;Jeddah;Transforming the banking landscape in Jeddah through sustainable solutions.;www.smartholdi.com.sa;contact@smartholdi.com.sa;24334200000
+SA-MOCK-340;Gulf Vision Company 58;Construction;Riyadh;B2B construction specialists focusing on enterprise-grade solutions enhancing customer experiences.;;partners@gulfvision.com.sa;597400000
+SA-MOCK-341;Global Group 94;Healthcare;Riyadh;B2B healthcare specialists focusing on tailored services with a strong focus on digital transformation.;www.globalgrou.com.sa;partners@globalgrou.com.sa;408900000
+SA-MOCK-342;Gulf Technologies 15;Logistics;Jeddah;Dedicated to offering integrated logistics systems for the B2B sector empowering businesses to grow exponentially.;www.gulftechno.com.sa;hello@gulftechno.com.sa;252000000
+SA-MOCK-343;Smart Apex Logistics 27;Logistics;Riyadh;A fast-growing logistics startup building the next generation of strategies in the MENA region.;www.smartapexl.com.sa;partners@smartapexl.com.sa;2368600000
+SA-MOCK-344;Saudi Pioneer Solutions 84;Information Technology;Jeddah;An established name in the information technology space, known for innovative strategies across the Saudi market.;;;4828800000
+SA-MOCK-345;Saudi Tech Group 46;Retail;Jeddah;A fast-growing retail startup building the next generation of systems for government entities.;;partners@sauditechg.com.sa;135500000
+SA-MOCK-346;Arabian Industries 91;Energy;Jeddah;Expertly handles data-driven energy infrastructure nationwide aligned closely with Vision 2030 objectives.;www.arabianind.com.sa;;22992300000
+SA-MOCK-347;Saudi Apex Company 32;Fintech;Jeddah;B2B fintech specialists focusing on comprehensive infrastructure backed by years of deep industry expertise.;www.saudiapexc.com.sa;;1252900000
+SA-MOCK-348;Arabian Vision Group 18;Logistics;Jeddah;Operating primarily out of Jeddah, they provide logistics services for large corporations to streamline daily operations.;www.arabianvis.com.sa;contact@arabianvis.com.sa;502700000
+SA-MOCK-349;Gulf Vision Corp 19;Manufacturing;Riyadh;An established name in the manufacturing space, known for data-driven infrastructure in the MENA region.;www.gulfvision.com.sa;sales@gulfvision.com.sa;1765500000
+SA-MOCK-350;National Star Services 42;Fintech;Dammam;Manages scalable fintech platforms to enterprise clients backed by years of deep industry expertise.;www.nationalst.com.sa;contact@nationalst.com.sa;15700000
+SA-MOCK-351;National Logistics 84;Energy;Dammam;A pioneer in integrated energy technologies nationwide to streamline daily operations.;;info@nationallo.com.sa;5575100000
+SA-MOCK-352;United Technologies 28;Healthcare;Jeddah;One of the key healthcare entities in Jeddah, offering comprehensive infrastructure empowering businesses to grow exponentially.;www.unitedtech.com.sa;sales@unitedtech.com.sa;1113800000
+SA-MOCK-353;Gulf Oasis Solutions 69;Logistics;Dammam;Dedicated to offering agile logistics frameworks for the B2B sector empowering businesses to grow exponentially.;;;743300000
+SA-MOCK-354;Global Vision Group 17;Education;Dammam;Expertly handles scalable education systems nationwide driving efficiency and growth.;;;11600000
+SA-MOCK-355;Saudi Star Group 66;Real Estate;Jeddah;Building enterprise-grade systems for the real estate sector in the MENA region.;;hello@saudistarg.com.sa;10294500000
+SA-MOCK-356;Future Vision Logistics 56;Education;Riyadh;Driven by modern innovation, this enterprise focuses on education technologies across the Saudi market.;;sales@futurevisi.com.sa;153900000
+SA-MOCK-357;National Vision Logistics 46;Banking;Jeddah;Transforming the banking landscape in Jeddah through integrated frameworks.;www.nationalvi.com.sa;hello@nationalvi.com.sa;3163300000
+SA-MOCK-358;Arabian Pioneer Corp 22;Construction;Dammam;Dedicated to offering innovative construction platforms nationwide backed by years of deep industry expertise.;www.arabianpio.com.sa;;1913500000
+SA-MOCK-359;United Logistics 67;Telecommunications;Riyadh;One of the key telecommunications entities in Riyadh, offering scalable technologies enhancing customer experiences.;;;5343100000
+SA-MOCK-360;Arabian Oasis Industries 59;Logistics;Dammam;A fast-growing logistics startup building the next generation of technologies across the Saudi market.;;info@arabianoas.com.sa;428300000
+SA-MOCK-361;Future Corp 91;Hospitality;Jeddah;Offers scalable hospitality solutions for the B2B sector empowering businesses to grow exponentially.;www.futurecorp.com.sa;sales@futurecorp.com.sa;389000000
+SA-MOCK-362;United Oasis Logistics 73;Real Estate;Jeddah;Leading the way in comprehensive real estate frameworks in the MENA region backed by years of deep industry expertise.;;contact@unitedoasi.com.sa;111300000
+SA-MOCK-363;National Logistics 16;Healthcare;Dammam;A fast-growing healthcare startup building the next generation of technologies to enterprise clients.;;sales@nationallo.com.sa;1341500000
+SA-MOCK-364;National Group 69;Retail;Riyadh;A Riyadh-based firm that delivers top-tier retail strategies for local SMEs.;www.nationalgr.com.sa;contact@nationalgr.com.sa;362500000
+SA-MOCK-365;Global Holdings 40;Manufacturing;Dammam;Offers comprehensive manufacturing systems for the B2B sector with a strong focus on digital transformation.;;info@globalhold.com.sa;12084400000
+SA-MOCK-366;Al Solutions 89;Banking;Jeddah;Focuses on delivering enterprise-grade banking solutions in the MENA region driving efficiency and growth.;www.alsolution.com.sa;;35140500000
+SA-MOCK-367;Gulf Oasis Corp 89;Logistics;Dammam;Manages innovative logistics systems for government entities to streamline daily operations.;www.gulfoasisc.com.sa;partners@gulfoasisc.com.sa;146700000
+SA-MOCK-368;Global Technologies 11;Manufacturing;Dammam;Expertly handles scalable manufacturing systems for the B2B sector enhancing customer experiences.;www.globaltech.com.sa;;1070600000
+SA-MOCK-369;Smart Vision Holdings 82;Information Technology;Dammam;An established name in the information technology space, known for data-driven platforms in the MENA region.;;contact@smartvisio.com.sa;95200000
+SA-MOCK-370;Al Logistics 28;Fintech;Riyadh;Manages integrated fintech systems for local SMEs backed by years of deep industry expertise.;;hello@allogistic.com.sa;59300000
+SA-MOCK-371;Smart Logistics 13;Energy;Dammam;Leading the way in agile energy frameworks for local SMEs empowering businesses to grow exponentially.;www.smartlogis.com.sa;info@smartlogis.com.sa;19637200000
+SA-MOCK-372;Arabian Apex Technologies 74;Telecommunications;Jeddah;Expertly handles innovative telecommunications frameworks for local SMEs backed by years of deep industry expertise.;www.arabianape.com.sa;;25302900000
+SA-MOCK-373;Global Services 31;Real Estate;Dammam;Expertly handles data-driven real estate technologies for government entities aligned closely with Vision 2030 objectives.;www.globalserv.com.sa;contact@globalserv.com.sa;871100000
+SA-MOCK-374;Future Group 32;Energy;Jeddah;One of the key energy entities in Jeddah, offering integrated frameworks with a strong focus on digital transformation.;www.futuregrou.com.sa;;2083900000
+SA-MOCK-375;Al Holdings 75;Healthcare;Riyadh;Manages integrated healthcare services for government entities enhancing customer experiences.;;partners@alholdings.com.sa;217900000
+SA-MOCK-376;Future Oasis Logistics 23;Telecommunications;Jeddah;Operating primarily out of Jeddah, they provide telecommunications services for large corporations to streamline daily operations.;www.futureoasi.com.sa;contact@futureoasi.com.sa;6884100000
+SA-MOCK-377;Arabian Oasis Corp 12;Telecommunications;Dammam;Offers cutting-edge telecommunications solutions across the Saudi market backed by years of deep industry expertise.;www.arabianoas.com.sa;;28353200000
+SA-MOCK-378;Gulf Services 55;Information Technology;Jeddah;A pioneer in scalable information technology systems across the Saudi market empowering businesses to grow exponentially.;www.gulfservic.com.sa;;96500000
+SA-MOCK-379;Arabian Vision Services 30;Energy;Jeddah;Designing tailored solutions for the energy sector to enterprise clients.;www.arabianvis.com.sa;;16668200000
+SA-MOCK-380;Smart Solutions 40;Healthcare;Riyadh;Transforming the healthcare landscape in Riyadh through sustainable services.;www.smartsolut.com.sa;;90100000
+SA-MOCK-381;United Apex Technologies 85;Construction;Riyadh;An established name in the construction space, known for agile strategies to enterprise clients.;www.unitedapex.com.sa;partners@unitedapex.com.sa;102100000
+SA-MOCK-382;Gulf Solutions 25;Retail;Riyadh;Specializes in providing integrated retail solutions to enterprise clients backed by years of deep industry expertise.;www.gulfsoluti.com.sa;sales@gulfsoluti.com.sa;148400000
+SA-MOCK-383;Gulf Star Company 62;Fintech;Riyadh;A Riyadh-based firm that designs top-tier fintech systems to enterprise clients.;;partners@gulfstarco.com.sa;251700000
+SA-MOCK-384;Future Oasis Industries 38;Information Technology;Jeddah;Leading the way in tailored information technology technologies for government entities with a strong focus on digital transformation.;;contact@futureoasi.com.sa;256400000
+SA-MOCK-385;Al Tech Services 60;Retail;Dammam;Expertly handles data-driven retail systems for large corporations driving efficiency and growth.;www.altechserv.com.sa;;274000000
+SA-MOCK-386;Future Industries 91;Banking;Riyadh;Specializes in providing agile banking services for government entities enhancing customer experiences.;;sales@futureindu.com.sa;8679700000
+SA-MOCK-387;Global Tech Solutions 72;Healthcare;Jeddah;Driven by modern innovation, this enterprise focuses on healthcare platforms to enterprise clients.;www.globaltech.com.sa;;138500000
+SA-MOCK-388;Smart Company 33;Education;Riyadh;A Riyadh-based firm that delivers top-tier education services for the B2B sector.;www.smartcompa.com.sa;;480600000
+SA-MOCK-389;Arabian Apex Technologies 31;Education;Riyadh;A pioneer in enterprise-grade education solutions for the B2B sector aligned closely with Vision 2030 objectives.;www.arabianape.com.sa;;19200000
+SA-MOCK-390;Gulf Group 77;Retail;Jeddah;Specializes in providing scalable retail solutions in the MENA region empowering businesses to grow exponentially.;www.gulfgroup7.com.sa;contact@gulfgroup7.com.sa;575900000
+SA-MOCK-391;Global Apex Solutions 63;Construction;Jeddah;Operating primarily out of Jeddah, they provide construction services for large corporations driving efficiency and growth.;www.globalapex.com.sa;;134100000
+SA-MOCK-392;Smart Tech Logistics 12;Telecommunications;Riyadh;Deploying data-driven solutions for the telecommunications sector for large corporations.;www.smarttechl.com.sa;partners@smarttechl.com.sa;994300000
+SA-MOCK-393;Future Corp 10;Logistics;Riyadh;Develops scalable logistics systems for government entities backed by years of deep industry expertise.;www.futurecorp.com.sa;;517800000
+SA-MOCK-394;National Star Company 18;Retail;Jeddah;A pioneer in data-driven retail services nationwide enhancing customer experiences.;www.nationalst.com.sa;;404700000
+SA-MOCK-395;Future Solutions 24;Banking;Dammam;Deploying comprehensive solutions for the banking sector for the B2B sector.;www.futuresolu.com.sa;sales@futuresolu.com.sa;2821300000
+SA-MOCK-396;United Company 88;Manufacturing;Jeddah;Delivering sustainable strategies for the manufacturing sector to enterprise clients.;www.unitedcomp.com.sa;;793600000
+SA-MOCK-397;Arabian Vision Logistics 78;Manufacturing;Riyadh;Leading the way in comprehensive manufacturing services nationwide with a strong focus on digital transformation.;www.arabianvis.com.sa;partners@arabianvis.com.sa;1418800000
+SA-MOCK-398;Al Tech Corp 67;Healthcare;Riyadh;Transforming the healthcare landscape in Riyadh through scalable systems.;;sales@altechcorp.com.sa;184600000
+SA-MOCK-399;Future Apex Solutions 81;Information Technology;Dammam;A pioneer in sustainable information technology strategies for large corporations empowering businesses to grow exponentially.;www.futureapex.com.sa;contact@futureapex.com.sa;141000000
+SA-MOCK-400;Future Technologies 66;Banking;Riyadh;Expertly handles innovative banking technologies for large corporations to streamline daily operations.;www.futuretech.com.sa;hello@futuretech.com.sa;9153800000
+SA-MOCK-401;Saudi Apex Solutions 25;Manufacturing;Dammam;Operating primarily out of Dammam, they provide manufacturing services to enterprise clients driving efficiency and growth.;;;2451100000
+SA-MOCK-402;Arabian Apex Corp 71;Information Technology;Riyadh;Dedicated to offering integrated information technology services for large corporations to streamline daily operations.;www.arabianape.com.sa;partners@arabianape.com.sa;735000000
+SA-MOCK-403;Saudi Star Services 41;Banking;Riyadh;A pioneer in sustainable banking solutions in the MENA region empowering businesses to grow exponentially.;www.saudistars.com.sa;partners@saudistars.com.sa;25205000000
+SA-MOCK-404;Global Technologies 51;Fintech;Dammam;Expertly handles enterprise-grade fintech infrastructure nationwide to streamline daily operations.;www.globaltech.com.sa;;163800000
+SA-MOCK-405;National Tech Solutions 44;Banking;Dammam;Focuses on delivering data-driven banking services nationwide driving efficiency and growth.;www.nationalte.com.sa;info@nationalte.com.sa;25852300000
+SA-MOCK-406;Future Tech Logistics 89;Real Estate;Riyadh;Specializes in providing agile real estate services across the Saudi market to streamline daily operations.;;contact@futuretech.com.sa;256700000
+SA-MOCK-407;Global Oasis Services 42;Logistics;Dammam;Driven by modern innovation, this enterprise focuses on logistics systems to enterprise clients.;;sales@globaloasi.com.sa;1430200000
+SA-MOCK-408;Al Services 45;Logistics;Dammam;Established in Dammam, this company designs scalable logistics platforms empowering businesses to grow exponentially.;www.alservices.com.sa;hello@alservices.com.sa;2002700000
+SA-MOCK-409;Global Logistics 41;Hospitality;Riyadh;Offers integrated hospitality solutions for large corporations with a strong focus on digital transformation.;;;1194200000
+SA-MOCK-410;Gulf Pioneer Holdings 48;Construction;Dammam;B2B construction specialists focusing on sustainable services driving efficiency and growth.;www.gulfpionee.com.sa;;183800000
+SA-MOCK-411;Arabian Corp 32;Information Technology;Riyadh;Leading the way in cutting-edge information technology services for government entities aligned closely with Vision 2030 objectives.;www.arabiancor.com.sa;hello@arabiancor.com.sa;247300000
+SA-MOCK-412;Smart Pioneer Company 50;Real Estate;Dammam;One of the key real estate entities in Dammam, offering tailored services driving efficiency and growth.;www.smartpione.com.sa;info@smartpione.com.sa;8149200000
+SA-MOCK-413;Future Pioneer Group 92;Healthcare;Jeddah;An established name in the healthcare space, known for sustainable services for large corporations.;www.futurepion.com.sa;;250600000
+SA-MOCK-414;Global Technologies 63;Retail;Jeddah;A pioneer in sustainable retail systems for the B2B sector to streamline daily operations.;;;5952900000
+SA-MOCK-415;United Technologies 99;Real Estate;Riyadh;Dedicated to offering scalable real estate platforms across the Saudi market to streamline daily operations.;;hello@unitedtech.com.sa;6830600000
+SA-MOCK-416;Al Corp 32;Information Technology;Dammam;A pioneer in data-driven information technology frameworks to enterprise clients aligned closely with Vision 2030 objectives.;;contact@alcorp32.com.sa;98700000
+SA-MOCK-417;Al Technologies 13;Information Technology;Jeddah;Deploying comprehensive solutions for the information technology sector for local SMEs.;www.altechnolo.com.sa;info@altechnolo.com.sa;168500000
+SA-MOCK-418;Gulf Group 61;Fintech;Dammam;Offers comprehensive fintech systems in the MENA region with a strong focus on digital transformation.;;;315300000
+SA-MOCK-419;Smart Oasis Technologies 72;Hospitality;Dammam;Manages enterprise-grade hospitality platforms across the Saudi market empowering businesses to grow exponentially.;www.smartoasis.com.sa;sales@smartoasis.com.sa;39500000
+SA-MOCK-420;Saudi Apex Company 30;Retail;Jeddah;Dedicated to offering tailored retail services for local SMEs to streamline daily operations.;www.saudiapexc.com.sa;;79600000
+SA-MOCK-421;Al Tech Company 86;Energy;Riyadh;A fast-growing energy startup building the next generation of frameworks for the B2B sector.;;;21146000000
+SA-MOCK-422;National Company 29;Construction;Dammam;Leading the way in tailored construction systems in the MENA region enhancing customer experiences.;;sales@nationalco.com.sa;306300000
+SA-MOCK-423;Saudi Vision Industries 26;Logistics;Riyadh;An established name in the logistics space, known for data-driven solutions for the B2B sector.;www.saudivisio.com.sa;;1813400000
+SA-MOCK-424;National Apex Logistics 60;Information Technology;Dammam;Transforming the information technology landscape in Dammam through tailored platforms.;www.nationalap.com.sa;info@nationalap.com.sa;94800000
+SA-MOCK-425;Saudi Corp 37;Retail;Jeddah;Specializes in providing innovative retail solutions for large corporations enhancing customer experiences.;www.saudicorp3.com.sa;;343900000
+SA-MOCK-426;Gulf Company 46;Healthcare;Riyadh;Offers enterprise-grade healthcare services for local SMEs backed by years of deep industry expertise.;;;2887900000
+SA-MOCK-427;Smart Tech Services 96;Manufacturing;Jeddah;Established in Jeddah, this company designs enterprise-grade manufacturing infrastructure backed by years of deep industry expertise.;www.smarttechs.com.sa;hello@smarttechs.com.sa;109300000
+SA-MOCK-428;Global Pioneer Company 58;Telecommunications;Dammam;Transforming the telecommunications landscape in Dammam through agile frameworks.;www.globalpion.com.sa;contact@globalpion.com.sa;1009100000
+SA-MOCK-429;National Services 74;Healthcare;Jeddah;B2B healthcare specialists focusing on agile services backed by years of deep industry expertise.;www.nationalse.com.sa;sales@nationalse.com.sa;2845400000
+SA-MOCK-430;Gulf Technologies 67;Logistics;Jeddah;Dedicated to offering agile logistics strategies for large corporations driving efficiency and growth.;www.gulftechno.com.sa;info@gulftechno.com.sa;3259300000
+SA-MOCK-431;Al Company 75;Education;Dammam;Established in Dammam, this company builds tailored education frameworks aligned closely with Vision 2030 objectives.;www.alcompany7.com.sa;info@alcompany7.com.sa;1691500000
+SA-MOCK-432;Smart Company 80;Healthcare;Jeddah;Manages tailored healthcare infrastructure nationwide to streamline daily operations.;www.smartcompa.com.sa;;146400000
+SA-MOCK-433;United Apex Corp 33;Construction;Jeddah;Offers agile construction services for government entities enhancing customer experiences.;www.unitedapex.com.sa;info@unitedapex.com.sa;459700000
+SA-MOCK-434;Saudi Vision Services 27;Retail;Jeddah;Dedicated to offering data-driven retail systems nationwide with a strong focus on digital transformation.;www.saudivisio.com.sa;info@saudivisio.com.sa;1885000000
+SA-MOCK-435;National Solutions 98;Healthcare;Riyadh;Focuses on delivering scalable healthcare strategies for government entities aligned closely with Vision 2030 objectives.;www.nationalso.com.sa;;1111500000
+SA-MOCK-436;National Group 30;Fintech;Riyadh;Offers agile fintech infrastructure for government entities driving efficiency and growth.;www.nationalgr.com.sa;;249700000
+SA-MOCK-437;National Pioneer Holdings 98;Information Technology;Dammam;Transforming the information technology landscape in Dammam through integrated platforms.;;;130500000
+SA-MOCK-438;Smart Solutions 59;Hospitality;Jeddah;A Jeddah-based firm that builds top-tier hospitality services for government entities.;;sales@smartsolut.com.sa;14500000
+SA-MOCK-439;Al Holdings 75;Energy;Dammam;Specializes in providing tailored energy solutions nationwide aligned closely with Vision 2030 objectives.;www.alholdings.com.sa;;806200000
+SA-MOCK-440;Gulf Pioneer Logistics 79;Fintech;Riyadh;Leading the way in innovative fintech systems for the B2B sector driving efficiency and growth.;;info@gulfpionee.com.sa;6200000
+SA-MOCK-441;Arabian Vision Services 14;Construction;Jeddah;One of the key construction entities in Jeddah, offering enterprise-grade solutions with a strong focus on digital transformation.;;sales@arabianvis.com.sa;573900000
+SA-MOCK-442;Global Tech Industries 23;Healthcare;Jeddah;A pioneer in scalable healthcare solutions for local SMEs backed by years of deep industry expertise.;www.globaltech.com.sa;contact@globaltech.com.sa;1183800000
+SA-MOCK-443;Saudi Tech Technologies 59;Real Estate;Dammam;One of the key real estate entities in Dammam, offering tailored frameworks enhancing customer experiences.;www.sauditecht.com.sa;;1382700000
+SA-MOCK-444;Smart Solutions 86;Education;Riyadh;Develops integrated education technologies nationwide driving efficiency and growth.;;;21700000
+SA-MOCK-445;Smart Company 56;Education;Riyadh;A Riyadh-based firm that deploys top-tier education frameworks in the MENA region.;www.smartcompa.com.sa;;26600000
+SA-MOCK-446;Smart Technologies 50;Telecommunications;Dammam;Focuses on delivering innovative telecommunications systems for local SMEs empowering businesses to grow exponentially.;www.smarttechn.com.sa;contact@smarttechn.com.sa;1023000000
+SA-MOCK-447;Arabian Group 26;Banking;Riyadh;Expertly handles data-driven banking systems across the Saudi market driving efficiency and growth.;www.arabiangro.com.sa;sales@arabiangro.com.sa;23955100000
+SA-MOCK-448;Future Pioneer Holdings 55;Retail;Riyadh;Expertly handles integrated retail frameworks for the B2B sector to streamline daily operations.;www.futurepion.com.sa;hello@futurepion.com.sa;5727800000
+SA-MOCK-449;Arabian Logistics 47;Telecommunications;Jeddah;Specializes in providing agile telecommunications solutions for the B2B sector backed by years of deep industry expertise.;;hello@arabianlog.com.sa;28565700000
+SA-MOCK-450;Future Apex Services 72;Construction;Jeddah;Established in Jeddah, this company provides data-driven construction solutions enhancing customer experiences.;www.futureapex.com.sa;partners@futureapex.com.sa;63400000
+SA-MOCK-451;Global Company 82;Logistics;Riyadh;Focuses on delivering tailored logistics platforms in the MENA region enhancing customer experiences.;;sales@globalcomp.com.sa;53900000
+SA-MOCK-452;Arabian Logistics 95;Logistics;Riyadh;Develops enterprise-grade logistics services across the Saudi market aligned closely with Vision 2030 objectives.;;partners@arabianlog.com.sa;3956000000
+SA-MOCK-453;Global Logistics 69;Hospitality;Jeddah;Manages innovative hospitality frameworks nationwide backed by years of deep industry expertise.;www.globallogi.com.sa;;115700000
+SA-MOCK-454;Al Solutions 77;Construction;Riyadh;Leading the way in scalable construction technologies across the Saudi market with a strong focus on digital transformation.;www.alsolution.com.sa;hello@alsolution.com.sa;1605500000
+SA-MOCK-455;Smart Services 75;Healthcare;Dammam;B2B healthcare specialists focusing on tailored technologies with a strong focus on digital transformation.;www.smartservi.com.sa;;442600000
+SA-MOCK-456;Smart Star Group 45;Telecommunications;Dammam;Focuses on delivering scalable telecommunications technologies for large corporations with a strong focus on digital transformation.;;;3435400000
+SA-MOCK-457;Saudi Industries 73;Retail;Jeddah;An established name in the retail space, known for cutting-edge services for large corporations.;;contact@saudiindus.com.sa;589300000
+SA-MOCK-458;National Industries 55;Construction;Riyadh;Operating primarily out of Riyadh, they provide construction services for local SMEs with a strong focus on digital transformation.;www.nationalin.com.sa;;319100000
+SA-MOCK-459;National Group 56;Education;Jeddah;Expertly handles sustainable education strategies to enterprise clients empowering businesses to grow exponentially.;www.nationalgr.com.sa;;241400000
+SA-MOCK-460;Smart Industries 86;Real Estate;Jeddah;A pioneer in integrated real estate strategies for local SMEs enhancing customer experiences.;;partners@smartindus.com.sa;85500000
+SA-MOCK-461;Smart Industries 17;Construction;Riyadh;Specializes in providing comprehensive construction strategies for the B2B sector driving efficiency and growth.;www.smartindus.com.sa;;1180500000
+SA-MOCK-462;National Vision Services 61;Banking;Dammam;Dedicated to offering integrated banking technologies across the Saudi market with a strong focus on digital transformation.;;hello@nationalvi.com.sa;24406000000
+SA-MOCK-463;Saudi Tech Group 26;Fintech;Jeddah;Leading the way in integrated fintech strategies in the MENA region to streamline daily operations.;www.sauditechg.com.sa;partners@sauditechg.com.sa;14100000
+SA-MOCK-464;Al Group 30;Real Estate;Jeddah;A pioneer in agile real estate technologies for the B2B sector to streamline daily operations.;;info@algroup30.com.sa;777900000
+SA-MOCK-465;Future Group 66;Manufacturing;Dammam;Manages cutting-edge manufacturing solutions in the MENA region enhancing customer experiences.;www.futuregrou.com.sa;hello@futuregrou.com.sa;4063100000
+SA-MOCK-466;Al Star Industries 87;Retail;Dammam;A pioneer in cutting-edge retail strategies in the MENA region aligned closely with Vision 2030 objectives.;www.alstarindu.com.sa;info@alstarindu.com.sa;348100000
+SA-MOCK-467;Saudi Solutions 43;Telecommunications;Jeddah;Delivering data-driven platforms for the telecommunications sector for the B2B sector.;;;982500000
+SA-MOCK-468;Global Tech Technologies 54;Logistics;Riyadh;A fast-growing logistics startup building the next generation of systems in the MENA region.;www.globaltech.com.sa;;88800000
+SA-MOCK-469;United Company 92;Manufacturing;Riyadh;Manages scalable manufacturing strategies to enterprise clients driving efficiency and growth.;www.unitedcomp.com.sa;;1304300000
+SA-MOCK-470;Al Holdings 38;Education;Dammam;Building comprehensive systems for the education sector across the Saudi market.;;partners@alholdings.com.sa;10900000
+SA-MOCK-471;United Group 84;Retail;Riyadh;Designing innovative infrastructure for the retail sector in the MENA region.;;hello@unitedgrou.com.sa;3598000000
+SA-MOCK-472;United Industries 42;Telecommunications;Jeddah;A Jeddah-based firm that designs top-tier telecommunications solutions nationwide.;www.unitedindu.com.sa;sales@unitedindu.com.sa;16049900000
+SA-MOCK-473;Future Company 64;Energy;Riyadh;B2B energy specialists focusing on agile platforms empowering businesses to grow exponentially.;www.futurecomp.com.sa;partners@futurecomp.com.sa;11914300000
+SA-MOCK-474;Gulf Industries 72;Information Technology;Jeddah;Offers enterprise-grade information technology infrastructure across the Saudi market driving efficiency and growth.;;;3945700000
+SA-MOCK-475;Future Industries 39;Banking;Jeddah;Specializes in providing scalable banking infrastructure in the MENA region empowering businesses to grow exponentially.;www.futureindu.com.sa;info@futureindu.com.sa;9072800000
+SA-MOCK-476;United Tech Group 17;Retail;Jeddah;An established name in the retail space, known for tailored infrastructure for local SMEs.;www.unitedtech.com.sa;contact@unitedtech.com.sa;346800000
+SA-MOCK-477;Arabian Group 28;Construction;Dammam;A fast-growing construction startup building the next generation of services for government entities.;;;723400000
+SA-MOCK-478;National Vision Logistics 89;Information Technology;Jeddah;B2B information technology specialists focusing on data-driven systems empowering businesses to grow exponentially.;;partners@nationalvi.com.sa;646400000
+SA-MOCK-479;National Oasis Industries 84;Retail;Riyadh;Manages agile retail services to enterprise clients backed by years of deep industry expertise.;www.nationaloa.com.sa;sales@nationaloa.com.sa;5522600000
+SA-MOCK-480;Gulf Oasis Company 75;Healthcare;Dammam;Dedicated to offering scalable healthcare infrastructure across the Saudi market empowering businesses to grow exponentially.;www.gulfoasisc.com.sa;sales@gulfoasisc.com.sa;5400700000
+SA-MOCK-481;Future Tech Group 93;Information Technology;Jeddah;Operating primarily out of Jeddah, they provide information technology services for large corporations aligned closely with Vision 2030 objectives.;www.futuretech.com.sa;hello@futuretech.com.sa;185400000
+SA-MOCK-482;Gulf Corp 22;Information Technology;Riyadh;Focuses on delivering tailored information technology solutions in the MENA region with a strong focus on digital transformation.;;partners@gulfcorp22.com.sa;5100100000
+SA-MOCK-483;Arabian Corp 21;Fintech;Riyadh;A fast-growing fintech startup building the next generation of infrastructure for large corporations.;;;349200000
+SA-MOCK-484;Global Oasis Technologies 23;Real Estate;Jeddah;Offers sustainable real estate technologies for the B2B sector driving efficiency and growth.;;;3945100000
+SA-MOCK-485;Global Star Logistics 32;Real Estate;Dammam;A fast-growing real estate startup building the next generation of services to enterprise clients.;www.globalstar.com.sa;;4740500000
+SA-MOCK-486;Al Tech Company 60;Retail;Riyadh;Deploying integrated platforms for the retail sector for government entities.;www.altechcomp.com.sa;;348600000
+SA-MOCK-487;Global Oasis Services 42;Education;Dammam;One of the key education entities in Dammam, offering enterprise-grade infrastructure with a strong focus on digital transformation.;www.globaloasi.com.sa;contact@globaloasi.com.sa;1156100000
+SA-MOCK-488;Al Group 30;Energy;Riyadh;A Riyadh-based firm that deploys top-tier energy solutions for government entities.;www.algroup30.com.sa;partners@algroup30.com.sa;26205600000
+SA-MOCK-489;Arabian Corp 24;Energy;Jeddah;An established name in the energy space, known for agile services in the MENA region.;www.arabiancor.com.sa;;11396600000
+SA-MOCK-490;Smart Services 76;Energy;Riyadh;Focuses on delivering enterprise-grade energy technologies for large corporations driving efficiency and growth.;;;15790700000
+SA-MOCK-491;Al Group 99;Information Technology;Riyadh;Manages sustainable information technology systems in the MENA region enhancing customer experiences.;www.algroup99.com.sa;sales@algroup99.com.sa;2430100000
+SA-MOCK-492;National Star Corp 78;Fintech;Dammam;Leading the way in enterprise-grade fintech services in the MENA region empowering businesses to grow exponentially.;www.nationalst.com.sa;;50600000
+SA-MOCK-493;Saudi Company 87;Information Technology;Jeddah;Dedicated to offering data-driven information technology platforms in the MENA region aligned closely with Vision 2030 objectives.;;hello@saudicompa.com.sa;1957700000
+SA-MOCK-494;National Pioneer Company 57;Healthcare;Jeddah;A pioneer in integrated healthcare technologies for the B2B sector to streamline daily operations.;;;115700000
+SA-MOCK-495;Smart Tech Group 77;Real Estate;Jeddah;Specializes in providing comprehensive real estate solutions across the Saudi market backed by years of deep industry expertise.;www.smarttechg.com.sa;partners@smarttechg.com.sa;443300000
+SA-MOCK-496;Al Vision Company 40;Banking;Dammam;Manages enterprise-grade banking infrastructure in the MENA region to streamline daily operations.;www.alvisionco.com.sa;partners@alvisionco.com.sa;4331600000
+SA-MOCK-497;United Tech Holdings 38;Logistics;Dammam;Expertly handles scalable logistics solutions for local SMEs to streamline daily operations.;www.unitedtech.com.sa;;42100000
+SA-MOCK-498;National Holdings 23;Healthcare;Riyadh;Offers scalable healthcare solutions for the B2B sector driving efficiency and growth.;;;514600000
+SA-MOCK-499;United Technologies 28;Banking;Dammam;An established name in the banking space, known for tailored services to enterprise clients.;www.unitedtech.com.sa;;9471000000
+SA-MOCK-500;Arabian Pioneer Group 51;Banking;Dammam;Established in Dammam, this company builds sustainable banking platforms backed by years of deep industry expertise.;;hello@arabianpio.com.sa;8851400000

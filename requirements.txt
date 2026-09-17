@@ -1,0 +1,6 @@
+sentence-transformers
+tenacity
+python-dotenv
+numpy
+openai
+pytest

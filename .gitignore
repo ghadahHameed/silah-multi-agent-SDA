@@ -6,3 +6,5 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
+agent2_scores_log.jsonl
+.pytest_cache/
